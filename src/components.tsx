@@ -14,7 +14,7 @@ export function Header({ hi, title, brand = true }: { hi?: ReactNode; title: Rea
     <header className="pt-[calc(env(safe-area-inset-top)+1.25rem)] pb-5">
       {brand && (
         <p className="flex items-center gap-1.5 font-title text-sm text-rose">
-          <Mark className="size-6" />있는걸로
+          <Mark className="size-6" />있잖아
         </p>
       )}
       {hi && <p className="mt-4 text-sm text-soft">{hi}</p>}

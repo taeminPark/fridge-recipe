@@ -1,0 +1,2112 @@
+[
+ {
+  "id": "r001",
+  "name": "대파 달걀볶음밥",
+  "minutes": 15,
+  "ingredients": [
+   {
+    "id": "rice",
+    "amount": "1공기"
+   },
+   {
+    "id": "egg",
+    "amount": "2개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/2대"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1큰술"
+   },
+   {
+    "id": "oil",
+    "amount": "2큰술"
+   },
+   {
+    "id": "sesame",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "대파를 송송 썬다",
+   "팬에 기름을 두르고 파를 볶아 파기름을 낸다",
+   "달걀을 넣어 스크램블한 뒤 밥을 넣고 볶는다",
+   "팬 가장자리에 간장을 눌려 향을 내고 섞는다",
+   "깨를 뿌려 마무리한다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r002",
+  "name": "김치볶음밥",
+  "minutes": 15,
+  "ingredients": [
+   {
+    "id": "rice",
+    "amount": "1공기"
+   },
+   {
+    "id": "kimchi",
+    "amount": "1컵"
+   },
+   {
+    "id": "pa",
+    "amount": "1/3대"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "1/2작은술"
+   },
+   {
+    "id": "oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "sesame_oil",
+    "amount": "1작은술"
+   },
+   {
+    "id": "egg",
+    "amount": "1개",
+    "optional": true
+   },
+   {
+    "id": "laver",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "김치를 잘게 썰고 파를 송송 썬다",
+   "기름에 파를 볶다가 김치와 설탕을 넣어 3분 볶는다",
+   "고춧가루와 밥을 넣고 고루 볶는다",
+   "참기름을 두르고 불을 끈다",
+   "달걀프라이와 김가루를 올린다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r003",
+  "name": "김치찌개",
+  "minutes": 30,
+  "ingredients": [
+   {
+    "id": "kimchi",
+    "amount": "2컵"
+   },
+   {
+    "id": "pork",
+    "amount": "200g"
+   },
+   {
+    "id": "tofu",
+    "amount": "1/2모"
+   },
+   {
+    "id": "onion",
+    "amount": "1/2개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/2대"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1큰술"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1큰술"
+   },
+   {
+    "id": "chili",
+    "amount": "1개",
+    "optional": true
+   },
+   {
+    "id": "kimchi_juice",
+    "amount": "1/2컵",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "돼지고기를 한입 크기로 썰어 냄비에 볶는다",
+   "김치를 넣고 기름이 돌 때까지 5분 볶는다",
+   "물 3컵과 김칫국물을 붓고 끓인다",
+   "양파·고춧가루·마늘·간장을 넣고 10분 끓인다",
+   "두부와 대파를 넣고 5분 더 끓인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r004",
+  "name": "된장찌개",
+  "minutes": 25,
+  "ingredients": [
+   {
+    "id": "doenjang",
+    "amount": "2큰술"
+   },
+   {
+    "id": "tofu",
+    "amount": "1/2모"
+   },
+   {
+    "id": "zucchini",
+    "amount": "1/3개"
+   },
+   {
+    "id": "onion",
+    "amount": "1/2개"
+   },
+   {
+    "id": "potato",
+    "amount": "1개"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "chili",
+    "amount": "1개",
+    "optional": true
+   },
+   {
+    "id": "pa",
+    "amount": "1/3대",
+    "optional": true
+   },
+   {
+    "id": "anchovy",
+    "amount": "5마리",
+    "optional": true
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1작은술",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "멸치로 육수를 내거나 물 2.5컵을 준비한다",
+   "감자를 먼저 넣고 된장을 풀어 끓인다",
+   "애호박과 양파를 넣고 5분 끓인다",
+   "두부와 마늘, 고추를 넣고 3분 더 끓인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r005",
+  "name": "순두부찌개",
+  "minutes": 20,
+  "ingredients": [
+   {
+    "id": "soft_tofu",
+    "amount": "1봉"
+   },
+   {
+    "id": "egg",
+    "amount": "1개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/2대"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1.5큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1큰술"
+   },
+   {
+    "id": "onion",
+    "amount": "1/4개",
+    "optional": true
+   },
+   {
+    "id": "clam",
+    "amount": "한줌",
+    "optional": true
+   },
+   {
+    "id": "pork",
+    "amount": "50g",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "뚝배기에 기름, 고춧가루, 파, 마늘을 넣고 약불로 고추기름을 낸다",
+   "물 1컵과 간장을 넣고 끓인다",
+   "순두부를 크게 떠 넣고 5분 끓인다",
+   "달걀을 깨 넣고 불을 끈다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r006",
+  "name": "계란말이",
+  "minutes": 15,
+  "ingredients": [
+   {
+    "id": "egg",
+    "amount": "4개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/4대"
+   },
+   {
+    "id": "salt",
+    "amount": "약간"
+   },
+   {
+    "id": "oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "carrot",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "달걀을 풀고 소금 간을 한다",
+   "파와 당근을 잘게 다져 섞는다",
+   "약불 팬에 1/3을 부어 반쯤 익으면 돌돌 만다",
+   "남은 달걀물을 나눠 부으며 계속 만다",
+   "한 김 식힌 뒤 썬다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r007",
+  "name": "계란찜",
+  "minutes": 15,
+  "ingredients": [
+   {
+    "id": "egg",
+    "amount": "3개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/4대"
+   },
+   {
+    "id": "salt",
+    "amount": "약간"
+   },
+   {
+    "id": "saeujeot",
+    "amount": "1/2작은술",
+    "optional": true
+   },
+   {
+    "id": "sesame_oil",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "달걀에 물 1컵을 넣고 곱게 푼다",
+   "새우젓이나 소금으로 간한다",
+   "뚝배기에 붓고 중약불에서 저어가며 익힌다",
+   "몽글해지면 파를 올리고 뚜껑을 덮어 2분 뜸 들인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r008",
+  "name": "감자채볶음",
+  "minutes": 15,
+  "ingredients": [
+   {
+    "id": "potato",
+    "amount": "2개"
+   },
+   {
+    "id": "onion",
+    "amount": "1/2개"
+   },
+   {
+    "id": "salt",
+    "amount": "1/2작은술"
+   },
+   {
+    "id": "oil",
+    "amount": "2큰술"
+   },
+   {
+    "id": "carrot",
+    "amount": "약간",
+    "optional": true
+   },
+   {
+    "id": "sesame",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "감자를 얇게 채 썰어 찬물에 헹궈 전분을 뺀다",
+   "기름 두른 팬에 감자를 볶는다",
+   "양파와 당근을 넣고 소금 간해 투명해질 때까지 볶는다",
+   "깨를 뿌린다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r009",
+  "name": "감자조림",
+  "minutes": 25,
+  "ingredients": [
+   {
+    "id": "potato",
+    "amount": "3개"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "3큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "1큰술"
+   },
+   {
+    "id": "oligo",
+    "amount": "1큰술"
+   },
+   {
+    "id": "oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "onion",
+    "amount": "1/2개",
+    "optional": true
+   },
+   {
+    "id": "sesame",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "감자를 깍둑썰어 찬물에 헹군다",
+   "기름에 감자를 2분 볶는다",
+   "물 1컵, 간장, 설탕, 마늘을 넣고 졸인다",
+   "국물이 자작해지면 올리고당을 넣고 윤기 나게 졸인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r010",
+  "name": "어묵볶음",
+  "minutes": 10,
+  "ingredients": [
+   {
+    "id": "fish_cake",
+    "amount": "3장"
+   },
+   {
+    "id": "onion",
+    "amount": "1/2개"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1.5큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "chili",
+    "amount": "1개",
+    "optional": true
+   },
+   {
+    "id": "sesame",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "어묵과 양파를 길게 썬다",
+   "기름에 양파를 볶다가 어묵을 넣는다",
+   "간장과 설탕을 넣고 1~2분 더 볶는다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r011",
+  "name": "멸치볶음",
+  "minutes": 10,
+  "ingredients": [
+   {
+    "id": "anchovy",
+    "amount": "1컵"
+   },
+   {
+    "id": "oligo",
+    "amount": "1.5큰술"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2작은술"
+   },
+   {
+    "id": "sesame",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "마른 팬에 멸치를 볶아 비린내를 날린다",
+   "기름과 마늘을 넣고 함께 볶는다",
+   "간장과 올리고당을 넣고 빠르게 버무린다",
+   "깨를 뿌리고 펼쳐 식힌다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r012",
+  "name": "시금치나물",
+  "minutes": 10,
+  "ingredients": [
+   {
+    "id": "spinach",
+    "amount": "1단"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "salt",
+    "amount": "1/2작은술"
+   },
+   {
+    "id": "sesame_oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1작은술",
+    "optional": true
+   },
+   {
+    "id": "sesame",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "시금치를 끓는 소금물에 30초 데친다",
+   "찬물에 헹궈 물기를 꼭 짠다",
+   "마늘, 소금, 참기름으로 조물조물 무친다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r013",
+  "name": "콩나물무침",
+  "minutes": 10,
+  "ingredients": [
+   {
+    "id": "bean_sprout",
+    "amount": "1봉"
+   },
+   {
+    "id": "pa",
+    "amount": "1/4대"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "salt",
+    "amount": "1/2작은술"
+   },
+   {
+    "id": "sesame_oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1작은술",
+    "optional": true
+   },
+   {
+    "id": "sesame",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "냄비에 콩나물과 물 1/2컵을 넣고 뚜껑 덮어 5분 익힌다",
+   "건져 한 김 식힌다",
+   "파, 마늘, 소금, 참기름을 넣고 무친다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r014",
+  "name": "콩나물국",
+  "minutes": 15,
+  "ingredients": [
+   {
+    "id": "bean_sprout",
+    "amount": "1봉"
+   },
+   {
+    "id": "pa",
+    "amount": "1/2대"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "salt",
+    "amount": "1작은술"
+   },
+   {
+    "id": "saeujeot",
+    "amount": "1작은술",
+    "optional": true
+   },
+   {
+    "id": "chili",
+    "amount": "1개",
+    "optional": true
+   },
+   {
+    "id": "anchovy",
+    "amount": "5마리",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "물 5컵에 멸치를 넣어 육수를 낸다",
+   "콩나물을 넣고 뚜껑을 덮어 5분 끓인다",
+   "마늘과 새우젓(또는 소금)으로 간한다",
+   "파와 고추를 넣고 한소끔 끓인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r015",
+  "name": "미역국",
+  "minutes": 35,
+  "ingredients": [
+   {
+    "id": "seaweed_fresh",
+    "amount": "한줌"
+   },
+   {
+    "id": "beef",
+    "amount": "150g"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "2큰술"
+   },
+   {
+    "id": "sesame_oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "salt",
+    "amount": "약간"
+   }
+  ],
+  "steps": [
+   "불린 미역을 먹기 좋게 자른다",
+   "참기름에 소고기를 볶다가 미역을 넣고 함께 볶는다",
+   "물 6컵을 붓고 끓인다",
+   "간장과 마늘을 넣고 20분 푹 끓인 뒤 소금으로 맞춘다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r016",
+  "name": "소고기무국",
+  "minutes": 35,
+  "ingredients": [
+   {
+    "id": "beef",
+    "amount": "150g"
+   },
+   {
+    "id": "radish",
+    "amount": "1/4개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/2대"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "2큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "sesame_oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "salt",
+    "amount": "약간"
+   }
+  ],
+  "steps": [
+   "무를 나박썬다",
+   "참기름에 소고기와 무를 볶는다",
+   "물 6컵을 붓고 20분 끓인다",
+   "간장, 마늘, 소금으로 간하고 파를 넣는다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r017",
+  "name": "떡국",
+  "minutes": 20,
+  "ingredients": [
+   {
+    "id": "rice_cake",
+    "amount": "2컵"
+   },
+   {
+    "id": "egg",
+    "amount": "1개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/3대"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1큰술"
+   },
+   {
+    "id": "salt",
+    "amount": "약간"
+   },
+   {
+    "id": "beef",
+    "amount": "100g",
+    "optional": true
+   },
+   {
+    "id": "laver",
+    "amount": "약간",
+    "optional": true
+   },
+   {
+    "id": "dashida",
+    "amount": "1작은술",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "떡을 찬물에 불린다",
+   "물 4컵(또는 육수)을 끓이고 간장으로 간한다",
+   "떡을 넣고 떠오를 때까지 끓인다",
+   "달걀을 풀어 두르고 파를 넣는다",
+   "김을 올린다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r018",
+  "name": "제육볶음",
+  "minutes": 25,
+  "ingredients": [
+   {
+    "id": "pork",
+    "amount": "300g"
+   },
+   {
+    "id": "onion",
+    "amount": "1/2개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/2대"
+   },
+   {
+    "id": "gochujang",
+    "amount": "2큰술"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1큰술"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "1큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1큰술"
+   },
+   {
+    "id": "oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "cabbage",
+    "amount": "한줌",
+    "optional": true
+   },
+   {
+    "id": "carrot",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "고추장, 고춧가루, 간장, 설탕, 마늘로 양념장을 만든다",
+   "돼지고기를 양념에 10분 재운다",
+   "기름 두른 팬에 고기를 센불로 볶는다",
+   "양파와 양배추를 넣고 익으면 대파를 넣어 마무리한다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r019",
+  "name": "소불고기",
+  "minutes": 30,
+  "ingredients": [
+   {
+    "id": "beef",
+    "amount": "300g"
+   },
+   {
+    "id": "onion",
+    "amount": "1/2개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/2대"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "4큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "2큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1큰술"
+   },
+   {
+    "id": "sesame_oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "pear",
+    "amount": "1/4개",
+    "optional": true
+   },
+   {
+    "id": "pepper",
+    "amount": "약간",
+    "optional": true
+   },
+   {
+    "id": "shiitake",
+    "amount": "2개",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "간장, 설탕, 마늘, 참기름, 간 배로 양념을 만든다",
+   "소고기를 양념에 20분 재운다",
+   "양파·버섯과 함께 센불에 볶는다",
+   "대파를 넣고 한 번 더 볶는다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r020",
+  "name": "닭볶음탕",
+  "minutes": 45,
+  "ingredients": [
+   {
+    "id": "chicken",
+    "amount": "1마리"
+   },
+   {
+    "id": "potato",
+    "amount": "2개"
+   },
+   {
+    "id": "onion",
+    "amount": "1개"
+   },
+   {
+    "id": "carrot",
+    "amount": "1/2개"
+   },
+   {
+    "id": "pa",
+    "amount": "1대"
+   },
+   {
+    "id": "gochujang",
+    "amount": "2큰술"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "2큰술"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "4큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "1큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1.5큰술"
+   }
+  ],
+  "steps": [
+   "닭을 끓는 물에 한 번 데쳐 헹군다",
+   "양념 재료를 모두 섞는다",
+   "냄비에 닭, 물 3컵, 양념을 넣고 15분 끓인다",
+   "감자와 당근을 넣고 15분 더 끓인다",
+   "양파와 대파를 넣고 국물이 졸 때까지 끓인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r021",
+  "name": "간장 닭조림",
+  "minutes": 35,
+  "ingredients": [
+   {
+    "id": "chicken",
+    "amount": "500g"
+   },
+   {
+    "id": "potato",
+    "amount": "1개"
+   },
+   {
+    "id": "onion",
+    "amount": "1/2개"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "5큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "2큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1큰술"
+   },
+   {
+    "id": "oligo",
+    "amount": "1큰술"
+   },
+   {
+    "id": "carrot",
+    "amount": "1/2개",
+    "optional": true
+   },
+   {
+    "id": "dangmyeon",
+    "amount": "한줌",
+    "optional": true
+   },
+   {
+    "id": "chili",
+    "amount": "1개",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "닭을 데쳐 헹군다",
+   "간장, 설탕, 마늘, 물 2컵으로 조림장을 만든다",
+   "닭과 감자를 넣고 20분 졸인다",
+   "양파와 불린 당면을 넣고 국물이 자작해질 때까지 졸인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r022",
+  "name": "고등어조림",
+  "minutes": 30,
+  "ingredients": [
+   {
+    "id": "mackerel",
+    "amount": "1마리"
+   },
+   {
+    "id": "radish",
+    "amount": "1/4개"
+   },
+   {
+    "id": "onion",
+    "amount": "1/2개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/2대"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "2큰술"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "3큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "ginger",
+    "amount": "약간",
+    "optional": true
+   },
+   {
+    "id": "chili",
+    "amount": "1개",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "무를 도톰하게 썰어 냄비 바닥에 깐다",
+   "고등어를 올리고 양념장과 물 1.5컵을 붓는다",
+   "뚜껑을 덮고 20분 졸이며 양념을 끼얹는다",
+   "양파와 대파를 넣고 5분 더 졸인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r023",
+  "name": "오징어볶음",
+  "minutes": 20,
+  "ingredients": [
+   {
+    "id": "squid",
+    "amount": "1마리"
+   },
+   {
+    "id": "onion",
+    "amount": "1/2개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/2대"
+   },
+   {
+    "id": "gochujang",
+    "amount": "1.5큰술"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1큰술"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "1큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "cabbage",
+    "amount": "한줌",
+    "optional": true
+   },
+   {
+    "id": "carrot",
+    "amount": "약간",
+    "optional": true
+   },
+   {
+    "id": "chili",
+    "amount": "1개",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "오징어를 손질해 칼집 내고 썬다",
+   "양념장을 만든다",
+   "센불에 채소를 먼저 볶는다",
+   "오징어와 양념을 넣고 2~3분만 빠르게 볶는다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r024",
+  "name": "두부조림",
+  "minutes": 20,
+  "ingredients": [
+   {
+    "id": "tofu",
+    "amount": "1모"
+   },
+   {
+    "id": "pa",
+    "amount": "1/3대"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "3큰술"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "onion",
+    "amount": "1/4개",
+    "optional": true
+   },
+   {
+    "id": "sesame",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "두부를 도톰하게 썰어 소금을 살짝 뿌린다",
+   "기름에 앞뒤로 노릇하게 굽는다",
+   "간장, 고춧가루, 설탕, 마늘, 물 1/2컵으로 양념장을 만든다",
+   "양념장을 붓고 약불에서 끼얹으며 졸인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r025",
+  "name": "두부부침",
+  "minutes": 15,
+  "ingredients": [
+   {
+    "id": "tofu",
+    "amount": "1모"
+   },
+   {
+    "id": "salt",
+    "amount": "약간"
+   },
+   {
+    "id": "oil",
+    "amount": "2큰술"
+   },
+   {
+    "id": "egg",
+    "amount": "1개",
+    "optional": true
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "양념장용",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "두부를 1cm 두께로 썰어 물기를 뺀다",
+   "소금을 살짝 뿌린다",
+   "기름에 앞뒤로 노릇하게 굽는다",
+   "양념간장을 곁들인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r026",
+  "name": "김치전",
+  "minutes": 20,
+  "ingredients": [
+   {
+    "id": "kimchi",
+    "amount": "1컵"
+   },
+   {
+    "id": "frying_mix",
+    "amount": "1컵"
+   },
+   {
+    "id": "oil",
+    "amount": "3큰술"
+   },
+   {
+    "id": "onion",
+    "amount": "1/4개",
+    "optional": true
+   },
+   {
+    "id": "pork",
+    "amount": "50g",
+    "optional": true
+   },
+   {
+    "id": "squid",
+    "amount": "약간",
+    "optional": true
+   },
+   {
+    "id": "kimchi_juice",
+    "amount": "2큰술",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "김치를 잘게 썬다",
+   "부침가루, 물 2/3컵, 김칫국물과 섞는다",
+   "기름을 넉넉히 두르고 얇게 펴서 굽는다",
+   "가장자리가 바삭해지면 뒤집는다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r027",
+  "name": "부추전",
+  "minutes": 20,
+  "ingredients": [
+   {
+    "id": "chive",
+    "amount": "1/2단"
+   },
+   {
+    "id": "frying_mix",
+    "amount": "1컵"
+   },
+   {
+    "id": "oil",
+    "amount": "3큰술"
+   },
+   {
+    "id": "onion",
+    "amount": "1/4개",
+    "optional": true
+   },
+   {
+    "id": "chili",
+    "amount": "1개",
+    "optional": true
+   },
+   {
+    "id": "squid",
+    "amount": "약간",
+    "optional": true
+   },
+   {
+    "id": "shrimp",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "부추를 5cm 길이로 썬다",
+   "부침가루와 물 2/3컵을 섞어 반죽한다",
+   "부추와 양파를 넣고 섞는다",
+   "기름 두른 팬에 얇게 부쳐 양면을 노릇하게 굽는다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r028",
+  "name": "애호박전",
+  "minutes": 20,
+  "ingredients": [
+   {
+    "id": "zucchini",
+    "amount": "1개"
+   },
+   {
+    "id": "flour",
+    "amount": "3큰술"
+   },
+   {
+    "id": "egg",
+    "amount": "2개"
+   },
+   {
+    "id": "salt",
+    "amount": "약간"
+   },
+   {
+    "id": "oil",
+    "amount": "2큰술"
+   }
+  ],
+  "steps": [
+   "애호박을 0.5cm 두께로 둥글게 썬다",
+   "소금을 살짝 뿌려 5분 둔다",
+   "밀가루를 묻히고 달걀물을 입힌다",
+   "기름에 약불로 앞뒤 굽는다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r029",
+  "name": "떡볶이",
+  "minutes": 25,
+  "ingredients": [
+   {
+    "id": "rice_cake",
+    "amount": "2컵"
+   },
+   {
+    "id": "fish_cake",
+    "amount": "2장"
+   },
+   {
+    "id": "pa",
+    "amount": "1/2대"
+   },
+   {
+    "id": "gochujang",
+    "amount": "2큰술"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "1.5큰술"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1큰술"
+   },
+   {
+    "id": "egg",
+    "amount": "2개",
+    "optional": true
+   },
+   {
+    "id": "cabbage",
+    "amount": "한줌",
+    "optional": true
+   },
+   {
+    "id": "dashida",
+    "amount": "1작은술",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "물 2컵에 고추장, 고춧가루, 설탕, 간장을 풀어 끓인다",
+   "떡과 어묵을 넣고 졸인다",
+   "양배추와 대파를 넣는다",
+   "국물이 걸쭉해지면 삶은 달걀을 넣는다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r030",
+  "name": "라볶이",
+  "minutes": 20,
+  "ingredients": [
+   {
+    "id": "ramyeon",
+    "amount": "1봉"
+   },
+   {
+    "id": "rice_cake",
+    "amount": "1컵"
+   },
+   {
+    "id": "fish_cake",
+    "amount": "1장"
+   },
+   {
+    "id": "pa",
+    "amount": "1/3대"
+   },
+   {
+    "id": "gochujang",
+    "amount": "2큰술"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "1큰술"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1큰술"
+   },
+   {
+    "id": "egg",
+    "amount": "1개",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "물 2.5컵에 양념을 풀어 끓인다",
+   "떡과 어묵을 넣고 5분 끓인다",
+   "라면 사리를 넣고 2분 익힌다",
+   "대파를 넣고 국물을 졸인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r031",
+  "name": "잔치국수",
+  "minutes": 25,
+  "ingredients": [
+   {
+    "id": "somyeon",
+    "amount": "1인분"
+   },
+   {
+    "id": "zucchini",
+    "amount": "1/3개"
+   },
+   {
+    "id": "egg",
+    "amount": "1개"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1큰술"
+   },
+   {
+    "id": "salt",
+    "amount": "약간"
+   },
+   {
+    "id": "anchovy",
+    "amount": "10마리",
+    "optional": true
+   },
+   {
+    "id": "kelp",
+    "amount": "1조각",
+    "optional": true
+   },
+   {
+    "id": "laver",
+    "amount": "약간",
+    "optional": true
+   },
+   {
+    "id": "kimchi",
+    "amount": "약간",
+    "optional": true
+   },
+   {
+    "id": "pa",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "멸치와 다시마로 육수를 내고 간장, 소금으로 간한다",
+   "애호박을 채 썰어 볶고 달걀은 지단을 부친다",
+   "소면을 삶아 찬물에 헹군다",
+   "그릇에 면, 고명을 올리고 뜨거운 육수를 붓는다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r032",
+  "name": "비빔국수",
+  "minutes": 15,
+  "ingredients": [
+   {
+    "id": "somyeon",
+    "amount": "1인분"
+   },
+   {
+    "id": "gochujang",
+    "amount": "2큰술"
+   },
+   {
+    "id": "vinegar",
+    "amount": "1.5큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "1큰술"
+   },
+   {
+    "id": "sesame_oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "cucumber",
+    "amount": "1/3개",
+    "optional": true
+   },
+   {
+    "id": "egg",
+    "amount": "1개",
+    "optional": true
+   },
+   {
+    "id": "kimchi",
+    "amount": "약간",
+    "optional": true
+   },
+   {
+    "id": "sesame",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "고추장, 식초, 설탕, 참기름으로 비빔장을 만든다",
+   "소면을 삶아 찬물에 헹궈 물기를 뺀다",
+   "면과 비빔장을 버무린다",
+   "오이채와 삶은 달걀을 올린다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r033",
+  "name": "간장계란밥",
+  "minutes": 5,
+  "ingredients": [
+   {
+    "id": "rice",
+    "amount": "1공기"
+   },
+   {
+    "id": "egg",
+    "amount": "1개"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1큰술"
+   },
+   {
+    "id": "sesame_oil",
+    "amount": "1작은술"
+   },
+   {
+    "id": "oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "butter",
+    "amount": "1작은술",
+    "optional": true
+   },
+   {
+    "id": "laver",
+    "amount": "약간",
+    "optional": true
+   },
+   {
+    "id": "sesame",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "달걀프라이를 반숙으로 굽는다",
+   "따뜻한 밥 위에 올린다",
+   "간장, 참기름(또는 버터)을 넣고 비빈다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r034",
+  "name": "참치마요덮밥",
+  "minutes": 10,
+  "ingredients": [
+   {
+    "id": "rice",
+    "amount": "1공기"
+   },
+   {
+    "id": "tuna_can",
+    "amount": "1캔"
+   },
+   {
+    "id": "mayo",
+    "amount": "2큰술"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "1작은술"
+   },
+   {
+    "id": "onion",
+    "amount": "1/4개",
+    "optional": true
+   },
+   {
+    "id": "egg",
+    "amount": "1개",
+    "optional": true
+   },
+   {
+    "id": "laver",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "참치 기름을 빼 둔다",
+   "팬에 양파를 볶다가 간장과 설탕을 넣는다",
+   "밥 위에 양파, 참치, 스크램블 달걀을 올린다",
+   "마요네즈를 뿌리고 김가루를 올린다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r035",
+  "name": "스팸김치볶음밥",
+  "minutes": 15,
+  "ingredients": [
+   {
+    "id": "rice",
+    "amount": "1공기"
+   },
+   {
+    "id": "spam",
+    "amount": "1/3캔"
+   },
+   {
+    "id": "kimchi",
+    "amount": "1컵"
+   },
+   {
+    "id": "pa",
+    "amount": "1/3대"
+   },
+   {
+    "id": "oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1작은술"
+   },
+   {
+    "id": "egg",
+    "amount": "1개",
+    "optional": true
+   },
+   {
+    "id": "sesame_oil",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "스팸과 김치를 잘게 썬다",
+   "파기름을 내고 스팸을 노릇하게 볶는다",
+   "김치와 고춧가루를 넣어 볶는다",
+   "밥을 넣고 볶은 뒤 달걀프라이를 올린다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r036",
+  "name": "비빔밥",
+  "minutes": 20,
+  "ingredients": [
+   {
+    "id": "rice",
+    "amount": "1공기"
+   },
+   {
+    "id": "bean_sprout",
+    "amount": "한줌"
+   },
+   {
+    "id": "spinach",
+    "amount": "한줌"
+   },
+   {
+    "id": "carrot",
+    "amount": "1/4개"
+   },
+   {
+    "id": "egg",
+    "amount": "1개"
+   },
+   {
+    "id": "gochujang",
+    "amount": "1.5큰술"
+   },
+   {
+    "id": "sesame_oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "salt",
+    "amount": "약간"
+   },
+   {
+    "id": "zucchini",
+    "amount": "1/4개",
+    "optional": true
+   },
+   {
+    "id": "beef",
+    "amount": "50g",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "콩나물과 시금치를 데쳐 소금, 참기름으로 무친다",
+   "당근(과 애호박)을 채 썰어 볶는다",
+   "달걀프라이를 굽는다",
+   "밥 위에 나물과 달걀을 올리고 고추장, 참기름을 곁들인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r037",
+  "name": "부대찌개",
+  "minutes": 25,
+  "ingredients": [
+   {
+    "id": "spam",
+    "amount": "1/2캔"
+   },
+   {
+    "id": "sausage",
+    "amount": "5개"
+   },
+   {
+    "id": "kimchi",
+    "amount": "1컵"
+   },
+   {
+    "id": "ramyeon",
+    "amount": "1봉"
+   },
+   {
+    "id": "onion",
+    "amount": "1/2개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/2대"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1.5큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1큰술"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1큰술"
+   },
+   {
+    "id": "tofu",
+    "amount": "1/3모",
+    "optional": true
+   },
+   {
+    "id": "cheese",
+    "amount": "1장",
+    "optional": true
+   },
+   {
+    "id": "bean_sprout",
+    "amount": "한줌",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "햄과 소시지, 김치, 채소를 냄비에 둘러 담는다",
+   "고춧가루, 마늘, 간장 양념을 가운데 올린다",
+   "물 3컵을 붓고 끓인다",
+   "라면 사리와 치즈를 넣고 2분 더 끓인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r038",
+  "name": "오징어무국",
+  "minutes": 25,
+  "ingredients": [
+   {
+    "id": "squid",
+    "amount": "1마리"
+   },
+   {
+    "id": "radish",
+    "amount": "1/5개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/2대"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1큰술"
+   },
+   {
+    "id": "salt",
+    "amount": "약간"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1작은술",
+    "optional": true
+   },
+   {
+    "id": "chili",
+    "amount": "1개",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "무를 나박썰어 물 5컵에 10분 끓인다",
+   "손질한 오징어를 넣는다",
+   "간장, 마늘, 소금으로 간한다",
+   "대파와 고추를 넣고 한소끔 끓인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r039",
+  "name": "황태해장국",
+  "minutes": 25,
+  "ingredients": [
+   {
+    "id": "dried_pollock",
+    "amount": "한줌"
+   },
+   {
+    "id": "radish",
+    "amount": "1/5개"
+   },
+   {
+    "id": "egg",
+    "amount": "1개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/2대"
+   },
+   {
+    "id": "sesame_oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "salt",
+    "amount": "약간"
+   },
+   {
+    "id": "saeujeot",
+    "amount": "1작은술",
+    "optional": true
+   },
+   {
+    "id": "bean_sprout",
+    "amount": "한줌",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "황태채를 물에 헹궈 물기를 짠다",
+   "참기름에 황태와 무를 볶는다",
+   "물 5컵을 붓고 15분 끓인다",
+   "새우젓이나 소금으로 간하고 달걀을 풀어 넣은 뒤 대파를 넣는다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r040",
+  "name": "오이무침",
+  "minutes": 10,
+  "ingredients": [
+   {
+    "id": "cucumber",
+    "amount": "1개"
+   },
+   {
+    "id": "onion",
+    "amount": "1/4개"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1큰술"
+   },
+   {
+    "id": "vinegar",
+    "amount": "1큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "salt",
+    "amount": "1/2작은술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2작은술"
+   },
+   {
+    "id": "sesame",
+    "amount": "약간",
+    "optional": true
+   },
+   {
+    "id": "sesame_oil",
+    "amount": "약간",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "오이를 어슷썰어 소금에 10분 절인다",
+   "물기를 가볍게 짠다",
+   "양파와 양념을 넣고 무친다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r041",
+  "name": "김치찜",
+  "minutes": 50,
+  "ingredients": [
+   {
+    "id": "kimchi",
+    "amount": "1/4포기"
+   },
+   {
+    "id": "pork_belly",
+    "amount": "300g"
+   },
+   {
+    "id": "onion",
+    "amount": "1/2개"
+   },
+   {
+    "id": "pa",
+    "amount": "1/2대"
+   },
+   {
+    "id": "gochugaru",
+    "amount": "1큰술"
+   },
+   {
+    "id": "sugar",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "garlic",
+    "amount": "1큰술"
+   },
+   {
+    "id": "kimchi_juice",
+    "amount": "1/2컵",
+    "optional": true
+   },
+   {
+    "id": "tofu",
+    "amount": "1/2모",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "냄비에 김치를 통으로 깔고 돼지고기를 올린다",
+   "김칫국물, 물 2컵, 양념을 붓는다",
+   "뚜껑을 덮고 중약불로 40분 푹 찐다",
+   "양파와 대파를 넣고 5분 더 끓인다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r042",
+  "name": "삼겹살 숙주볶음",
+  "minutes": 15,
+  "ingredients": [
+   {
+    "id": "pork_belly",
+    "amount": "200g"
+   },
+   {
+    "id": "mung_sprout",
+    "amount": "1봉"
+   },
+   {
+    "id": "pa",
+    "amount": "1/3대"
+   },
+   {
+    "id": "soy_sauce",
+    "amount": "1큰술"
+   },
+   {
+    "id": "oyster_sauce",
+    "amount": "1/2큰술"
+   },
+   {
+    "id": "pepper",
+    "amount": "약간"
+   },
+   {
+    "id": "garlic",
+    "amount": "1/2큰술",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "삼겹살을 한입 크기로 썰어 노릇하게 굽는다",
+   "기름을 조금 덜어낸다",
+   "숙주와 파를 넣고 센불로 30초 볶는다",
+   "간장과 굴소스로 간하고 후추를 뿌린다"
+  ],
+  "source": "manual"
+ },
+ {
+  "id": "r043",
+  "name": "소시지야채볶음",
+  "minutes": 15,
+  "ingredients": [
+   {
+    "id": "sausage",
+    "amount": "15개"
+   },
+   {
+    "id": "onion",
+    "amount": "1/2개"
+   },
+   {
+    "id": "ketchup",
+    "amount": "3큰술"
+   },
+   {
+    "id": "oligo",
+    "amount": "1큰술"
+   },
+   {
+    "id": "oil",
+    "amount": "1큰술"
+   },
+   {
+    "id": "bell_pepper",
+    "amount": "1/2개",
+    "optional": true
+   },
+   {
+    "id": "carrot",
+    "amount": "약간",
+    "optional": true
+   },
+   {
+    "id": "oyster_sauce",
+    "amount": "1/2큰술",
+    "optional": true
+   }
+  ],
+  "steps": [
+   "소시지에 칼집을 내 끓는 물에 데친다",
+   "양파, 파프리카를 썬다",
+   "기름에 채소와 소시지를 볶는다",
+   "케첩과 올리고당을 넣고 버무린다"
+  ],
+  "source": "manual"
+ }
+]

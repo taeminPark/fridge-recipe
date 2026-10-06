@@ -1,0 +1,2547 @@
+[
+ {
+  "id": "pa",
+  "name": "대파",
+  "aliases": [
+   "파",
+   "쪽파",
+   "실파"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "isAromatic": true,
+  "emoji": "🌿"
+ },
+ {
+  "id": "onion",
+  "name": "양파",
+  "aliases": [
+   "적양파",
+   "양파즙",
+   "레드어니언"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "isAromatic": true,
+  "emoji": "🧅"
+ },
+ {
+  "id": "garlic",
+  "name": "마늘",
+  "aliases": [
+   "다진마늘",
+   "다진 마늘",
+   "통마늘",
+   "알마늘",
+   "마늘가루"
+  ],
+  "category": "채소",
+  "isPantry": true,
+  "emoji": "🧄"
+ },
+ {
+  "id": "ginger",
+  "name": "생강",
+  "aliases": [
+   "다진생강",
+   "생강즙",
+   "생강가루",
+   "다진 생강"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "isAromatic": true,
+  "emoji": "🫚"
+ },
+ {
+  "id": "potato",
+  "name": "감자",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥔"
+ },
+ {
+  "id": "sweet_potato",
+  "name": "고구마",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🍠"
+ },
+ {
+  "id": "carrot",
+  "name": "당근",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥕"
+ },
+ {
+  "id": "cabbage",
+  "name": "양배추",
+  "aliases": [
+   "적양배추",
+   "적채"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "napa",
+  "name": "배추",
+  "aliases": [
+   "알배추",
+   "알배기배추",
+   "배춧잎"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "radish",
+  "name": "무",
+  "aliases": [
+   "무우"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🤍"
+ },
+ {
+  "id": "zucchini",
+  "name": "애호박",
+  "aliases": [
+   "호박",
+   "주키니호박",
+   "주키니",
+   "돼지호박"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥒"
+ },
+ {
+  "id": "pumpkin",
+  "name": "단호박",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🎃"
+ },
+ {
+  "id": "cucumber",
+  "name": "오이",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥒"
+ },
+ {
+  "id": "eggplant",
+  "name": "가지",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🍆"
+ },
+ {
+  "id": "spinach",
+  "name": "시금치",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "bean_sprout",
+  "name": "콩나물",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🌱"
+ },
+ {
+  "id": "mung_sprout",
+  "name": "숙주",
+  "aliases": [
+   "숙주나물"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🌱"
+ },
+ {
+  "id": "chili",
+  "name": "청양고추",
+  "aliases": [
+   "고추",
+   "풋고추",
+   "청고추",
+   "꽈리고추",
+   "청고추다진것"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "isAromatic": true,
+  "emoji": "🌶️"
+ },
+ {
+  "id": "red_chili",
+  "name": "홍고추",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "isAromatic": true,
+  "emoji": "🌶️"
+ },
+ {
+  "id": "bell_pepper",
+  "name": "파프리카",
+  "aliases": [
+   "피망",
+   "청피망",
+   "홍피망",
+   "홍파프리카",
+   "황파프리카",
+   "노랑파프리카",
+   "빨강파프리카",
+   "적파프리카",
+   "삼색파프리카",
+   "미니파프리카",
+   "노란파프리카",
+   "빨간파프리카",
+   "청파프리카"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🫑"
+ },
+ {
+  "id": "shiitake",
+  "name": "표고버섯",
+  "aliases": [
+   "표고",
+   "표고버섯가루"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🍄"
+ },
+ {
+  "id": "enoki",
+  "name": "팽이버섯",
+  "aliases": [
+   "팽이",
+   "황금팽이버섯"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🍄"
+ },
+ {
+  "id": "oyster_mushroom",
+  "name": "느타리버섯",
+  "aliases": [
+   "느타리",
+   "애느타리버섯",
+   "애느타리"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🍄"
+ },
+ {
+  "id": "king_mushroom",
+  "name": "새송이버섯",
+  "aliases": [
+   "새송이"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🍄"
+ },
+ {
+  "id": "lettuce",
+  "name": "상추",
+  "aliases": [
+   "로메인",
+   "로메인상추"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "perilla_leaf",
+  "name": "깻잎",
+  "aliases": [
+   "깻잎순"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🌿"
+ },
+ {
+  "id": "chive",
+  "name": "부추",
+  "aliases": [
+   "영양부추"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🌿"
+ },
+ {
+  "id": "minari",
+  "name": "미나리",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🌿"
+ },
+ {
+  "id": "broccoli",
+  "name": "브로콜리",
+  "aliases": [
+   "브로컬리"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥦"
+ },
+ {
+  "id": "tomato",
+  "name": "토마토",
+  "aliases": [
+   "방울토마토",
+   "홀토마토",
+   "토마토콩카세"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🍅"
+ },
+ {
+  "id": "kimchi",
+  "name": "김치",
+  "aliases": [
+   "배추김치",
+   "신김치",
+   "묵은지"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "kkakdugi",
+  "name": "깍두기",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🤍"
+ },
+ {
+  "id": "bracken",
+  "name": "고사리",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "doraji",
+  "name": "도라지",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "lotus",
+  "name": "연근",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "burdock",
+  "name": "우엉",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "corn",
+  "name": "옥수수",
+  "aliases": [
+   "옥수수콘",
+   "스위트콘"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🌽"
+ },
+ {
+  "id": "iceberg",
+  "name": "양상추",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "garlic_stem",
+  "name": "마늘종",
+  "aliases": [
+   "마늘쫑"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "seaweed_fresh",
+  "name": "미역",
+  "aliases": [
+   "건미역",
+   "마른미역"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🌊"
+ },
+ {
+  "id": "kelp",
+  "name": "다시마",
+  "aliases": [
+   "다시마물"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🌊"
+ },
+ {
+  "id": "bok_choy",
+  "name": "청경채",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "ssukgat",
+  "name": "쑥갓",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "dallae",
+  "name": "달래",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "siraegi",
+  "name": "시래기",
+  "aliases": [
+   "우거지"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "button_mushroom",
+  "name": "양송이버섯",
+  "aliases": [
+   "양송이"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🍄"
+ },
+ {
+  "id": "apple",
+  "name": "사과",
+  "aliases": [
+   "사과즙"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🍎"
+ },
+ {
+  "id": "pear",
+  "name": "배",
+  "aliases": [
+   "배즙"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🍐"
+ },
+ {
+  "id": "lemon",
+  "name": "레몬",
+  "aliases": [
+   "레몬즙",
+   "레몬주스",
+   "라임즙",
+   "라임"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🍋"
+ },
+ {
+  "id": "yeolmu",
+  "name": "열무",
+  "aliases": [
+   "열무김치"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "laver",
+  "name": "김",
+  "aliases": [
+   "조미김",
+   "김밥김"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🍙"
+ },
+ {
+  "id": "pork",
+  "name": "돼지고기",
+  "aliases": [
+   "돼지고기 앞다리",
+   "앞다리살",
+   "돼지 앞다리",
+   "돼지고기 뒷다리",
+   "다짐육",
+   "돼지등심",
+   "돼지안심",
+   "돼지고기 등심",
+   "돼지고기 안심",
+   "돼지고기 다짐육"
+  ],
+  "category": "육류",
+  "isPantry": false,
+  "emoji": "🐖"
+ },
+ {
+  "id": "pork_belly",
+  "name": "삼겹살",
+  "aliases": [
+   "대패삼겹살",
+   "오겹살",
+   "통삼겹"
+  ],
+  "category": "육류",
+  "isPantry": false,
+  "emoji": "🥓"
+ },
+ {
+  "id": "pork_neck",
+  "name": "목살",
+  "aliases": [
+   "돼지목살"
+  ],
+  "category": "육류",
+  "isPantry": false,
+  "emoji": "🐖"
+ },
+ {
+  "id": "beef",
+  "name": "소고기",
+  "aliases": [
+   "쇠고기",
+   "소고기 불고기용",
+   "불고기용 소고기",
+   "소고기 국거리",
+   "국거리",
+   "쇠고기등심",
+   "소고기등심",
+   "쇠고기 안심",
+   "소고기 안심",
+   "쇠고기 우둔",
+   "소고기 우둔"
+  ],
+  "category": "육류",
+  "isPantry": false,
+  "emoji": "🐄"
+ },
+ {
+  "id": "ground_beef",
+  "name": "다진 소고기",
+  "aliases": [
+   "소고기 다짐육",
+   "다진소고기"
+  ],
+  "category": "육류",
+  "isPantry": false,
+  "emoji": "🐄"
+ },
+ {
+  "id": "chicken",
+  "name": "닭고기",
+  "aliases": [
+   "닭",
+   "닭볶음탕용 닭",
+   "닭다리살",
+   "닭가슴살"
+  ],
+  "category": "육류",
+  "isPantry": false,
+  "emoji": "🍗"
+ },
+ {
+  "id": "chicken_wing",
+  "name": "닭날개",
+  "aliases": [
+   "윙",
+   "닭봉"
+  ],
+  "category": "육류",
+  "isPantry": false,
+  "emoji": "🍗"
+ },
+ {
+  "id": "duck",
+  "name": "오리고기",
+  "aliases": [
+   "훈제오리"
+  ],
+  "category": "육류",
+  "isPantry": false,
+  "emoji": "🦆"
+ },
+ {
+  "id": "beef_brisket",
+  "name": "차돌박이",
+  "aliases": [
+   "차돌"
+  ],
+  "category": "육류",
+  "isPantry": false,
+  "emoji": "🥩"
+ },
+ {
+  "id": "pork_rib",
+  "name": "돼지갈비",
+  "aliases": [],
+  "category": "육류",
+  "isPantry": false,
+  "emoji": "🍖"
+ },
+ {
+  "id": "beef_rib",
+  "name": "소갈비",
+  "aliases": [
+   "갈비"
+  ],
+  "category": "육류",
+  "isPantry": false,
+  "emoji": "🍖"
+ },
+ {
+  "id": "beef_shank",
+  "name": "소고기 양지",
+  "aliases": [
+   "양지",
+   "사태"
+  ],
+  "category": "육류",
+  "isPantry": false,
+  "emoji": "🥩"
+ },
+ {
+  "id": "anchovy",
+  "name": "멸치",
+  "aliases": [
+   "잔멸치",
+   "볶음멸치",
+   "국물용 멸치",
+   "국멸치",
+   "멸치가루"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "squid",
+  "name": "오징어",
+  "aliases": [],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🦑"
+ },
+ {
+  "id": "shrimp",
+  "name": "새우",
+  "aliases": [
+   "칵테일새우",
+   "냉동새우",
+   "대하",
+   "중하",
+   "새우살"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🦐"
+ },
+ {
+  "id": "mackerel",
+  "name": "고등어",
+  "aliases": [],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "hairtail",
+  "name": "갈치",
+  "aliases": [],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "clam",
+  "name": "바지락",
+  "aliases": [
+   "조개",
+   "모시조개",
+   "바지락살",
+   "조갯살"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐚"
+ },
+ {
+  "id": "mussel",
+  "name": "홍합",
+  "aliases": [],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🦪"
+ },
+ {
+  "id": "pollock",
+  "name": "동태",
+  "aliases": [
+   "명태",
+   "코다리"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "dried_pollock",
+  "name": "황태",
+  "aliases": [
+   "북어",
+   "황태채",
+   "북어채"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "salmon",
+  "name": "연어",
+  "aliases": [
+   "훈제연어"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🍣"
+ },
+ {
+  "id": "octopus",
+  "name": "낙지",
+  "aliases": [
+   "쭈꾸미",
+   "주꾸미"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐙"
+ },
+ {
+  "id": "oyster",
+  "name": "굴",
+  "aliases": [
+   "생굴"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🦪"
+ },
+ {
+  "id": "crab_stick",
+  "name": "게맛살",
+  "aliases": [
+   "맛살",
+   "크래미",
+   "게살"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🦀"
+ },
+ {
+  "id": "fish_cake",
+  "name": "어묵",
+  "aliases": [
+   "오뎅",
+   "사각어묵"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🍢"
+ },
+ {
+  "id": "dried_shrimp",
+  "name": "건새우",
+  "aliases": [
+   "마른새우"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🦐"
+ },
+ {
+  "id": "abalone",
+  "name": "전복",
+  "aliases": [],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐚"
+ },
+ {
+  "id": "blue_crab",
+  "name": "꽃게",
+  "aliases": [],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🦀"
+ },
+ {
+  "id": "cockle",
+  "name": "꼬막",
+  "aliases": [],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐚"
+ },
+ {
+  "id": "cod",
+  "name": "대구",
+  "aliases": [
+   "대구살"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "myeongran",
+  "name": "명란젓",
+  "aliases": [
+   "명란"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "jinmi",
+  "name": "진미채",
+  "aliases": [
+   "오징어채"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "egg",
+  "name": "달걀",
+  "aliases": [
+   "계란",
+   "달걀노른자",
+   "계란노른자",
+   "달걀흰자",
+   "달걀물",
+   "달걀지단",
+   "계란흰자",
+   "달걀 노른자",
+   "유정란"
+  ],
+  "category": "유제품·달걀",
+  "isPantry": false,
+  "emoji": "🥚"
+ },
+ {
+  "id": "milk",
+  "name": "우유",
+  "aliases": [],
+  "category": "유제품·달걀",
+  "isPantry": false,
+  "emoji": "🥛"
+ },
+ {
+  "id": "butter",
+  "name": "버터",
+  "aliases": [],
+  "category": "유제품·달걀",
+  "isPantry": false,
+  "emoji": "🧈"
+ },
+ {
+  "id": "cheese",
+  "name": "슬라이스 치즈",
+  "aliases": [
+   "치즈",
+   "체다치즈",
+   "치즈가루",
+   "파마산치즈",
+   "파르메산 치즈가루",
+   "파르메산치즈",
+   "치즈슬라이스"
+  ],
+  "category": "유제품·달걀",
+  "isPantry": false,
+  "emoji": "🧀"
+ },
+ {
+  "id": "mozzarella",
+  "name": "모짜렐라 치즈",
+  "aliases": [
+   "피자치즈",
+   "모짜렐라",
+   "리코타치즈",
+   "모차렐라치즈",
+   "슈레드 모차렐라치즈",
+   "모차렐라"
+  ],
+  "category": "유제품·달걀",
+  "isPantry": false,
+  "emoji": "🧀"
+ },
+ {
+  "id": "cream",
+  "name": "생크림",
+  "aliases": [],
+  "category": "유제품·달걀",
+  "isPantry": false,
+  "emoji": "🥛"
+ },
+ {
+  "id": "yogurt",
+  "name": "플레인 요거트",
+  "aliases": [
+   "요거트",
+   "요구르트",
+   "플레인 요구르트",
+   "호상요구르트",
+   "그릭요거트"
+  ],
+  "category": "유제품·달걀",
+  "isPantry": false,
+  "emoji": "🥛"
+ },
+ {
+  "id": "quail_egg",
+  "name": "메추리알",
+  "aliases": [],
+  "category": "유제품·달걀",
+  "isPantry": false,
+  "emoji": "🥚"
+ },
+ {
+  "id": "tofu",
+  "name": "두부",
+  "aliases": [
+   "부침두부",
+   "찌개두부"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🫘"
+ },
+ {
+  "id": "soft_tofu",
+  "name": "순두부",
+  "aliases": [
+   "연두부"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🫘"
+ },
+ {
+  "id": "spam",
+  "name": "스팸",
+  "aliases": [
+   "햄",
+   "통조림햄",
+   "런천미트"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥫"
+ },
+ {
+  "id": "sausage",
+  "name": "소시지",
+  "aliases": [
+   "비엔나소시지",
+   "비엔나"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🌭"
+ },
+ {
+  "id": "bacon",
+  "name": "베이컨",
+  "aliases": [],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥓"
+ },
+ {
+  "id": "tuna_can",
+  "name": "참치캔",
+  "aliases": [
+   "참치",
+   "통조림참치",
+   "캔참치"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥫"
+ },
+ {
+  "id": "dumpling",
+  "name": "만두",
+  "aliases": [
+   "냉동만두"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥟"
+ },
+ {
+  "id": "rice_cake",
+  "name": "떡",
+  "aliases": [
+   "떡볶이떡",
+   "가래떡",
+   "떡국떡",
+   "조랭이떡"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🍡"
+ },
+ {
+  "id": "fried_tofu",
+  "name": "유부",
+  "aliases": [],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🫘"
+ },
+ {
+  "id": "kimchi_juice",
+  "name": "김칫국물",
+  "aliases": [],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥫"
+ },
+ {
+  "id": "dangmyeon",
+  "name": "당면",
+  "aliases": [],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🍜"
+ },
+ {
+  "id": "ramyeon",
+  "name": "라면",
+  "aliases": [
+   "라면사리"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🍜"
+ },
+ {
+  "id": "rice",
+  "name": "밥",
+  "aliases": [
+   "쌀밥",
+   "공기밥",
+   "찬밥",
+   "햇반",
+   "현미밥",
+   "귀리밥",
+   "잡곡밥",
+   "흰밥"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🍚"
+ },
+ {
+  "id": "rice_raw",
+  "name": "쌀",
+  "aliases": [
+   "불린쌀",
+   "백미",
+   "멥쌀",
+   "현미",
+   "흑미",
+   "불린 쌀"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🍚"
+ },
+ {
+  "id": "flour",
+  "name": "밀가루",
+  "aliases": [
+   "중력분",
+   "박력분",
+   "강력분",
+   "통밀가루"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🌾"
+ },
+ {
+  "id": "frying_mix",
+  "name": "부침가루",
+  "aliases": [],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🌾"
+ },
+ {
+  "id": "frying_powder",
+  "name": "튀김가루",
+  "aliases": [],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🌾"
+ },
+ {
+  "id": "starch",
+  "name": "전분",
+  "aliases": [
+   "감자전분",
+   "녹말",
+   "녹말가루",
+   "물전분",
+   "물녹말",
+   "전분가루",
+   "감자녹말"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🥔"
+ },
+ {
+  "id": "somyeon",
+  "name": "소면",
+  "aliases": [
+   "국수"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🍜"
+ },
+ {
+  "id": "kalguksu",
+  "name": "칼국수면",
+  "aliases": [
+   "칼국수"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🍜"
+ },
+ {
+  "id": "udon",
+  "name": "우동면",
+  "aliases": [
+   "우동사리"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🍜"
+ },
+ {
+  "id": "pasta",
+  "name": "스파게티면",
+  "aliases": [
+   "파스타면",
+   "파스타",
+   "스파게티",
+   "펜네"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🍝"
+ },
+ {
+  "id": "bread",
+  "name": "식빵",
+  "aliases": [
+   "빵",
+   "바게트",
+   "통밀빵",
+   "모닝빵"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🍞"
+ },
+ {
+  "id": "breadcrumb",
+  "name": "빵가루",
+  "aliases": [],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🍞"
+ },
+ {
+  "id": "glutinous",
+  "name": "찹쌀",
+  "aliases": [],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🍚"
+ },
+ {
+  "id": "jjolmyeon",
+  "name": "쫄면",
+  "aliases": [],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🍜"
+ },
+ {
+  "id": "naengmyeon",
+  "name": "냉면사리",
+  "aliases": [
+   "냉면"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🍜"
+ },
+ {
+  "id": "soy_sauce",
+  "name": "간장",
+  "aliases": [
+   "진간장",
+   "양조간장",
+   "국간장",
+   "조선간장",
+   "맛간장",
+   "어간장",
+   "간편 어간장",
+   "저염간장",
+   "간장소스"
+  ],
+  "category": "양념",
+  "isPantry": true,
+  "emoji": "🫗"
+ },
+ {
+  "id": "salt",
+  "name": "소금",
+  "aliases": [
+   "꽃소금",
+   "천일염",
+   "함초소금",
+   "죽염",
+   "구운소금",
+   "함초가루",
+   "함초"
+  ],
+  "category": "양념",
+  "isPantry": true,
+  "emoji": "🧂"
+ },
+ {
+  "id": "sugar",
+  "name": "설탕",
+  "aliases": [
+   "흑설탕",
+   "백설탕",
+   "황설탕",
+   "알룰로스",
+   "스테비아",
+   "비정제설탕",
+   "마스코바도"
+  ],
+  "category": "양념",
+  "isPantry": true,
+  "emoji": "🍬"
+ },
+ {
+  "id": "sesame_oil",
+  "name": "참기름",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": true,
+  "emoji": "🫗"
+ },
+ {
+  "id": "oil",
+  "name": "식용유",
+  "aliases": [
+   "기름",
+   "포도씨유",
+   "카놀라유",
+   "올리브유",
+   "올리브오일",
+   "튀김기름",
+   "현미유",
+   "콩기름",
+   "대두유",
+   "식물성기름",
+   "포도씨오일",
+   "해바라기유",
+   "마늘기름",
+   "마늘오일",
+   "파기름"
+  ],
+  "category": "양념",
+  "isPantry": true,
+  "emoji": "🫗"
+ },
+ {
+  "id": "pepper",
+  "name": "후추",
+  "aliases": [
+   "후춧가루",
+   "흰후추",
+   "흰후춧가루",
+   "통후추",
+   "검은후추"
+  ],
+  "category": "양념",
+  "isPantry": true,
+  "emoji": "🧂"
+ },
+ {
+  "id": "gochugaru",
+  "name": "고춧가루",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": true,
+  "emoji": "🌶️"
+ },
+ {
+  "id": "gochujang",
+  "name": "고추장",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": true,
+  "emoji": "🌶️"
+ },
+ {
+  "id": "doenjang",
+  "name": "된장",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": true,
+  "emoji": "🧂"
+ },
+ {
+  "id": "vinegar",
+  "name": "식초",
+  "aliases": [
+   "사과식초",
+   "현미식초",
+   "감식초",
+   "레몬식초"
+  ],
+  "category": "양념",
+  "isPantry": true,
+  "emoji": "🫗"
+ },
+ {
+  "id": "sesame",
+  "name": "깨",
+  "aliases": [
+   "통깨",
+   "참깨",
+   "깨소금",
+   "검은깨",
+   "흑임자",
+   "검정깨",
+   "참깨가루"
+  ],
+  "category": "양념",
+  "isPantry": true,
+  "emoji": "🧂"
+ },
+ {
+  "id": "perilla_oil",
+  "name": "들기름",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": true,
+  "emoji": "🫗"
+ },
+ {
+  "id": "mirin",
+  "name": "맛술",
+  "aliases": [
+   "미림"
+  ],
+  "category": "양념",
+  "isPantry": true,
+  "emoji": "🧂"
+ },
+ {
+  "id": "oligo",
+  "name": "올리고당",
+  "aliases": [
+   "물엿",
+   "조청",
+   "요리당",
+   "쌀엿",
+   "유자청",
+   "생강청"
+  ],
+  "category": "양념",
+  "isPantry": true,
+  "emoji": "🧂"
+ },
+ {
+  "id": "oyster_sauce",
+  "name": "굴소스",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "fish_sauce",
+  "name": "액젓",
+  "aliases": [
+   "멸치액젓",
+   "까나리액젓",
+   "피시소스"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "saeujeot",
+  "name": "새우젓",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "ketchup",
+  "name": "케첩",
+  "aliases": [
+   "케찹",
+   "토마토케첩"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🍅"
+ },
+ {
+  "id": "mayo",
+  "name": "마요네즈",
+  "aliases": [
+   "마요"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🥚"
+ },
+ {
+  "id": "mustard",
+  "name": "연겨자",
+  "aliases": [
+   "겨자",
+   "머스터드",
+   "겨자가루",
+   "홀그레인머스터드"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "curry",
+  "name": "카레가루",
+  "aliases": [
+   "카레",
+   "강황가루",
+   "강황"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🍛"
+ },
+ {
+  "id": "perilla_powder",
+  "name": "들깨가루",
+  "aliases": [
+   "들깻가루",
+   "들깨"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "chunjang",
+  "name": "춘장",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "dashida",
+  "name": "다시다",
+  "aliases": [
+   "소고기다시다",
+   "치킨스톡"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "ssamjang",
+  "name": "쌈장",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "honey",
+  "name": "꿀",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🍯"
+ },
+ {
+  "id": "maesil",
+  "name": "매실청",
+  "aliases": [
+   "매실액"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "chili_oil",
+  "name": "고추기름",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "cooking_wine",
+  "name": "청주",
+  "aliases": [
+   "소주",
+   "정종",
+   "화이트와인",
+   "와인",
+   "레드와인"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "asparagus",
+  "name": "아스파라거스",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "baby_greens",
+  "name": "어린잎채소",
+  "aliases": [
+   "어린잎",
+   "새싹채소",
+   "새싹",
+   "무순",
+   "새싹무",
+   "베이비채소"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "chamnamul",
+  "name": "참나물",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "beet",
+  "name": "비트",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "celery",
+  "name": "셀러리",
+  "aliases": [
+   "샐러리"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "avocado",
+  "name": "아보카도",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥑"
+ },
+ {
+  "id": "yam",
+  "name": "마",
+  "aliases": [
+   "산마"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "deodeok",
+  "name": "더덕",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "cauliflower",
+  "name": "콜리플라워",
+  "aliases": [
+   "컬리플라워"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥦"
+ },
+ {
+  "id": "chwinamul",
+  "name": "취나물",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "wood_ear",
+  "name": "목이버섯",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🍄"
+ },
+ {
+  "id": "kale",
+  "name": "케일",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "kohlrabi",
+  "name": "콜라비",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "pumpkin_leaf",
+  "name": "호박잎",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "dureup",
+  "name": "두릅",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "dolnamul",
+  "name": "돌나물",
+  "aliases": [
+   "돈나물"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "auk",
+  "name": "아욱",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "bamboo",
+  "name": "죽순",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "chicory",
+  "name": "치커리",
+  "aliases": [],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "radish_red",
+  "name": "래디시",
+  "aliases": [
+   "레디쉬"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "ginseng",
+  "name": "인삼",
+  "aliases": [
+   "수삼"
+  ],
+  "category": "채소",
+  "isPantry": false,
+  "emoji": "🥬"
+ },
+ {
+  "id": "banana",
+  "name": "바나나",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍌"
+ },
+ {
+  "id": "orange",
+  "name": "오렌지",
+  "aliases": [
+   "오렌지주스"
+  ],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍊"
+ },
+ {
+  "id": "pineapple",
+  "name": "파인애플",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍍"
+ },
+ {
+  "id": "kiwi",
+  "name": "키위",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🥝"
+ },
+ {
+  "id": "strawberry",
+  "name": "딸기",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍓"
+ },
+ {
+  "id": "blueberry",
+  "name": "블루베리",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🫐"
+ },
+ {
+  "id": "jujube",
+  "name": "대추",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍎"
+ },
+ {
+  "id": "chestnut",
+  "name": "밤",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🌰"
+ },
+ {
+  "id": "walnut",
+  "name": "호두",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🌰"
+ },
+ {
+  "id": "pine_nut",
+  "name": "잣",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍎"
+ },
+ {
+  "id": "peanut",
+  "name": "땅콩",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🥜"
+ },
+ {
+  "id": "almond",
+  "name": "아몬드",
+  "aliases": [
+   "아몬드슬라이스",
+   "아몬드가루"
+  ],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🌰"
+ },
+ {
+  "id": "nuts",
+  "name": "견과류",
+  "aliases": [
+   "믹스넛"
+  ],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍎"
+ },
+ {
+  "id": "raisin",
+  "name": "건포도",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍎"
+ },
+ {
+  "id": "cranberry",
+  "name": "크랜베리",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍎"
+ },
+ {
+  "id": "korean_melon",
+  "name": "참외",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍈"
+ },
+ {
+  "id": "grape",
+  "name": "포도",
+  "aliases": [
+   "포도주스"
+  ],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍇"
+ },
+ {
+  "id": "cherry",
+  "name": "체리",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍒"
+ },
+ {
+  "id": "mango",
+  "name": "망고",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🥭"
+ },
+ {
+  "id": "dried_persimmon",
+  "name": "곶감",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍎"
+ },
+ {
+  "id": "persimmon",
+  "name": "감",
+  "aliases": [
+   "홍시",
+   "단감"
+  ],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🟠"
+ },
+ {
+  "id": "cashew",
+  "name": "캐슈넛",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍎"
+ },
+ {
+  "id": "pumpkin_seed",
+  "name": "호박씨",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍎"
+ },
+ {
+  "id": "sunflower_seed",
+  "name": "해바라기씨",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍎"
+ },
+ {
+  "id": "ginkgo",
+  "name": "은행",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍎"
+ },
+ {
+  "id": "grapefruit",
+  "name": "자몽",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍊"
+ },
+ {
+  "id": "plum",
+  "name": "자두",
+  "aliases": [],
+  "category": "과일·견과",
+  "isPantry": false,
+  "emoji": "🍑"
+ },
+ {
+  "id": "glutinous_flour",
+  "name": "찹쌀가루",
+  "aliases": [],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🌾"
+ },
+ {
+  "id": "rice_flour",
+  "name": "쌀가루",
+  "aliases": [
+   "멥쌀가루"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🌾"
+ },
+ {
+  "id": "buckwheat_noodle",
+  "name": "메밀면",
+  "aliases": [
+   "메밀국수"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🍜"
+ },
+ {
+  "id": "rice_paper",
+  "name": "라이스페이퍼",
+  "aliases": [],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🌾"
+ },
+ {
+  "id": "nurungji",
+  "name": "누룽지",
+  "aliases": [],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🍘"
+ },
+ {
+  "id": "oat",
+  "name": "귀리",
+  "aliases": [
+   "오트밀"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🌾"
+ },
+ {
+  "id": "barley",
+  "name": "보리",
+  "aliases": [],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🌾"
+ },
+ {
+  "id": "red_bean",
+  "name": "팥",
+  "aliases": [],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🫘"
+ },
+ {
+  "id": "black_bean",
+  "name": "검은콩",
+  "aliases": [
+   "서리태"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🫘"
+ },
+ {
+  "id": "pea",
+  "name": "완두콩",
+  "aliases": [],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🫛"
+ },
+ {
+  "id": "kidney_bean",
+  "name": "강낭콩",
+  "aliases": [],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🫘"
+ },
+ {
+  "id": "dumpling_skin",
+  "name": "만두피",
+  "aliases": [],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🥟"
+ },
+ {
+  "id": "tortilla",
+  "name": "또띠아",
+  "aliases": [
+   "토르티야"
+  ],
+  "category": "곡물·면",
+  "isPantry": false,
+  "emoji": "🫓"
+ },
+ {
+  "id": "soy_milk",
+  "name": "두유",
+  "aliases": [],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥛"
+ },
+ {
+  "id": "konjac",
+  "name": "곤약",
+  "aliases": [
+   "실곤약"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥫"
+ },
+ {
+  "id": "mung_jelly",
+  "name": "청포묵",
+  "aliases": [
+   "도토리묵",
+   "묵"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥫"
+ },
+ {
+  "id": "cream_cheese",
+  "name": "크림치즈",
+  "aliases": [],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🧀"
+ },
+ {
+  "id": "tomato_sauce",
+  "name": "토마토소스",
+  "aliases": [
+   "토마토페이스트",
+   "파스타소스"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥫"
+ },
+ {
+  "id": "pickle",
+  "name": "피클",
+  "aliases": [],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥫"
+ },
+ {
+  "id": "flying_fish_roe",
+  "name": "날치알",
+  "aliases": [],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥫"
+ },
+ {
+  "id": "peanut_butter",
+  "name": "땅콩버터",
+  "aliases": [],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥜"
+ },
+ {
+  "id": "jam",
+  "name": "딸기잼",
+  "aliases": [
+   "잼"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🍓"
+ },
+ {
+  "id": "cheonggukjang",
+  "name": "청국장",
+  "aliases": [
+   "청국장가루"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥫"
+ },
+ {
+  "id": "bean_curd_dregs",
+  "name": "콩비지",
+  "aliases": [
+   "비지"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥫"
+ },
+ {
+  "id": "coconut_milk",
+  "name": "코코넛밀크",
+  "aliases": [],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥫"
+ },
+ {
+  "id": "condensed_milk",
+  "name": "연유",
+  "aliases": [],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥫"
+ },
+ {
+  "id": "soy_powder",
+  "name": "콩가루",
+  "aliases": [
+   "볶은콩가루"
+  ],
+  "category": "가공식품",
+  "isPantry": false,
+  "emoji": "🥫"
+ },
+ {
+  "id": "scallop",
+  "name": "관자",
+  "aliases": [
+   "가리비관자",
+   "가리비"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐚"
+ },
+ {
+  "id": "octopus_big",
+  "name": "문어",
+  "aliases": [
+   "자숙문어"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐙"
+ },
+ {
+  "id": "spanish_mackerel",
+  "name": "삼치",
+  "aliases": [],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "eel",
+  "name": "장어",
+  "aliases": [],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "flatfish",
+  "name": "광어",
+  "aliases": [
+   "가자미"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "maesaengi",
+  "name": "매생이",
+  "aliases": [],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "tot",
+  "name": "톳",
+  "aliases": [],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "bonito",
+  "name": "가다랑어포",
+  "aliases": [
+   "가쓰오부시"
+  ],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "sea_squirt",
+  "name": "멍게",
+  "aliases": [],
+  "category": "해산물",
+  "isPantry": false,
+  "emoji": "🐟"
+ },
+ {
+  "id": "basil",
+  "name": "바질",
+  "aliases": [
+   "바질잎",
+   "바질가루"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "parsley",
+  "name": "파슬리",
+  "aliases": [
+   "파슬리가루"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "rosemary",
+  "name": "로즈마리",
+  "aliases": [
+   "로즈메리"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "bay_leaf",
+  "name": "월계수잎",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "oregano",
+  "name": "오레가노",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "thyme",
+  "name": "타임",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "cinnamon",
+  "name": "계피",
+  "aliases": [
+   "계피가루",
+   "시나몬가루"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "balsamic",
+  "name": "발사믹식초",
+  "aliases": [
+   "발사믹소스",
+   "발사믹"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "chili_sauce",
+  "name": "칠리소스",
+  "aliases": [
+   "스위트칠리소스"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "doubanjiang",
+  "name": "두반장",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "wasabi",
+  "name": "와사비",
+  "aliases": [
+   "고추냉이"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "baking_powder",
+  "name": "베이킹파우더",
+  "aliases": [
+   "베이킹소다"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "yeast",
+  "name": "이스트",
+  "aliases": [
+   "드라이이스트"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "gelatin",
+  "name": "젤라틴",
+  "aliases": [
+   "판젤라틴",
+   "한천"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "paprika_powder",
+  "name": "파프리카가루",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "green_tea_powder",
+  "name": "녹차가루",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "misutgaru",
+  "name": "미숫가루",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "omija",
+  "name": "오미자",
+  "aliases": [
+   "오미자청"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "mint",
+  "name": "민트",
+  "aliases": [
+   "애플민트"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "clove",
+  "name": "정향",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "jeotgal",
+  "name": "젓갈",
+  "aliases": [],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ },
+ {
+  "id": "miso",
+  "name": "일본된장",
+  "aliases": [
+   "미소된장"
+  ],
+  "category": "양념",
+  "isPantry": false,
+  "emoji": "🧂"
+ }
+]

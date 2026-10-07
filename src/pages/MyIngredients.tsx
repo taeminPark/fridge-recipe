@@ -7,14 +7,17 @@ const CATEGORIES: [string, string][] = [
   ['가공식품', '🥫'], ['곡물·면', '🍚'], ['과일·견과', '🍎'],
 ]
 
-export function MyIngredients({ mine, add, remove }: {
-  mine: string[]; add: (id: string) => void; remove: (id: string) => void
+export function MyIngredients({ mine, add, remove, pantryOff }: {
+  mine: string[]; add: (id: string) => void; remove: (id: string) => void; pantryOff: string[]
 }) {
   const [q, setQ] = useState('')
   const [cat, setCat] = useState<string | null>(null)
   const have = new Set(mine)
-  const suggestions = search(q).filter(i => !i.isPantry)
+  const suggestions = search(q)
+  // 설정에서 켜 둔 기본 재료·양념은 이미 있는 것으로 본다
+  const always = (id: string) => BY_ID.get(id)!.isPantry && !pantryOff.includes(id)
   const unknown = q.trim() !== '' && suggestions.length === 0
+  const first = suggestions.find(i => !always(i.id))
 
   const pick = (id: string) => { add(id); setQ('') }
 
@@ -22,7 +25,7 @@ export function MyIngredients({ mine, add, remove }: {
     <>
       <Header hi="오늘 냉장고 사정" title="내 재료" />
 
-      <form className="relative" onSubmit={e => { e.preventDefault(); if (suggestions[0]) pick(suggestions[0].id) }}>
+      <form className="relative" onSubmit={e => { e.preventDefault(); if (first) pick(first.id) }}>
         <label htmlFor="q" className="sr-only">재료 검색</label>
         <input id="q" value={q} onChange={e => setQ(e.target.value)} autoComplete="off" enterKeyHint="done"
           placeholder="재료 이름 (예: 계란, 대파)"
@@ -31,11 +34,11 @@ export function MyIngredients({ mine, add, remove }: {
           <ul className="absolute inset-x-0 top-full z-10 mt-1.5 overflow-hidden rounded-2xl border border-line bg-card shadow-xl shadow-black/40">
             {suggestions.map(i => (
               <li key={i.id}>
-                <button type="button" onClick={() => pick(i.id)} disabled={have.has(i.id)}
+                <button type="button" onClick={() => pick(i.id)} disabled={have.has(i.id) || always(i.id)}
                   className="flex w-full items-center gap-3 px-4 py-3 text-left active:bg-dish-b disabled:text-soft">
                   <span aria-hidden className="text-xl">{i.emoji}</span>
                   <span className="flex-1 font-medium">{i.name}</span>
-                  <span className="text-sm text-soft">{have.has(i.id) ? '이미 있어요' : i.category}</span>
+                  <span className="text-sm text-soft">{have.has(i.id) ? '이미 있어요' : always(i.id) ? '기본으로 있어요' : i.category}</span>
                 </button>
               </li>
             ))}

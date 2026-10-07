@@ -35,15 +35,20 @@ export function SectionTitle({ id, children, count, aside }: { id?: string; chil
   )
 }
 
-/** 동그란 접시에 담긴 레시피 사진. 사진이 없으면 빈 접시에 요리 이름 */
+/** 금테 두른 동그란 접시에 담긴 레시피 사진. 사진이 없으면 빈 접시에 요리 이름.
+ * 테는 box-shadow 대신 박스 안쪽 border로 그리고 사진에 transform을 쓰지 않는다:
+ * iOS 사파리에서 탭을 바꿀 때 원 바깥 그림자가 지워지지 않고 잔상으로 남았다 */
 export function RecipePhoto({ src, name, className = '' }: { src?: string; name: string; className?: string }) {
   return (
-    <div className={`overflow-hidden rounded-full bg-card ${className}`}>
-      {src ? (
-        <img src={src} alt="" loading="lazy" className="size-full scale-[1.12] object-cover" />
-      ) : (
-        <div className="grid size-full place-items-center p-[12%] text-center font-title leading-tight text-rose">{name}</div>
-      )}
+    <div className={`rounded-full border border-rose/35 bg-card p-[3px] ${className}`}>
+      <div className="size-full overflow-hidden rounded-full">
+        {src ? (
+          // 사진 가장자리 여백을 잘라내려고 12% 크게 (scale 대신 크기·여백으로)
+          <img src={src} alt="" loading="lazy" className="-m-[6%] size-[112%] max-w-none object-cover" />
+        ) : (
+          <div className="grid size-full place-items-center p-[12%] text-center font-title leading-tight text-rose">{name}</div>
+        )}
+      </div>
     </div>
   )
 }

@@ -4,6 +4,7 @@ import foodsafetyRecipes from './data/recipes-foodsafety.json'
 import { findRecipes, type Recipe } from './lib/match'
 import { AROMATIC_IDS, BY_ID, INGREDIENTS } from './lib/normalize'
 import { storage } from './lib/storage'
+import { canMake } from './lib/tools'
 import { MyIngredients } from './pages/MyIngredients'
 import { PotLoader, Results, type View } from './pages/Results'
 import { RecipeDetail } from './pages/RecipeDetail'
@@ -18,6 +19,8 @@ function withObject(word: string) {
   return word + (code >= 0 && code <= 11171 && code % 28 ? '을' : '를')
 }
 
+const toggle = (list: string[], id: string) => (list.includes(id) ? list.filter(x => x !== id) : [...list, id])
+
 type Tab = 'mine' | 'find' | 'settings'
 const TABS: { id: Tab; label: string }[] = [
   { id: 'mine', label: '내 재료' },
@@ -28,6 +31,7 @@ const TABS: { id: Tab; label: string }[] = [
 export default function App() {
   const [mine, setMine] = useState(storage.myIngredients)
   const [pantryOff, setPantryOff] = useState(storage.pantryOff)
+  const [toolsOff, setToolsOff] = useState(storage.toolsOff)
   const [view, setView] = useState<View>(storage.resultView)
   const [tab, setTab] = useState<Tab>('mine')
   const [openId, setOpenId] = useState<string | null>(null)
@@ -36,11 +40,12 @@ export default function App() {
 
   useEffect(() => { storage.setMyIngredients(mine) }, [mine])
   useEffect(() => { storage.setPantryOff(pantryOff) }, [pantryOff])
+  useEffect(() => { storage.setToolsOff(toolsOff) }, [toolsOff])
   useEffect(() => { storage.setResultView(view) }, [view])
   useEffect(() => { window.scrollTo(0, 0) }, [tab, openId])
 
-  // 재료나 양념 설정이 바뀐 뒤 요리찾기를 처음 열 때만 냄비 로딩을 보여준다
-  const searchKey = `${mine.join()}|${pantryOff.join()}`
+  // 재료나 양념·도구 설정이 바뀐 뒤 요리찾기를 처음 열 때만 냄비 로딩을 보여준다
+  const searchKey = `${mine.join()}|${pantryOff.join()}|${toolsOff.join()}`
   const [shownKey, setShownKey] = useState<string | null>(null)
   const loading = tab === 'find' && !openId && mine.length > 0 && shownKey !== searchKey
   useEffect(() => {
@@ -55,13 +60,15 @@ export default function App() {
     () => new Set(INGREDIENTS.filter(i => i.isPantry && !pantryOff.includes(i.id)).map(i => i.id)),
     [pantryOff],
   )
-  const results = useMemo(() => findRecipes(RECIPES, myIds, pantryIds, AROMATIC_IDS), [myIds, pantryIds])
+  // 없는 도구(오븐 등)가 꼭 필요한 레시피는 뺀다
+  const makeable = useMemo(() => { const off = new Set(toolsOff); return RECIPES.filter(r => canMake(r, off)) }, [toolsOff])
+  const results = useMemo(() => findRecipes(makeable, myIds, pantryIds, AROMATIC_IDS), [makeable, myIds, pantryIds])
 
   const add = (id: string) => setMine(m => (m.includes(id) ? m : [...m, id]))
   const remove = (id: string) => setMine(m => m.filter(x => x !== id))
   const useUp = (id: string) => {
     remove(id)
-    setShownKey(`${mine.filter(x => x !== id).join()}|${pantryOff.join()}`) // 상세에서 돌아갈 때 로딩을 다시 보이지 않게
+    setShownKey(`${mine.filter(x => x !== id).join()}|${pantryOff.join()}|${toolsOff.join()}`) // 상세에서 돌아갈 때 로딩을 다시 보이지 않게
     setToast({ id })
     clearTimeout(toastTimer.current)
     toastTimer.current = window.setTimeout(() => setToast(null), 4000)
@@ -74,16 +81,18 @@ export default function App() {
         {recipe ? (
           <RecipeDetail recipe={recipe} mine={myIds} pantry={pantryIds} back={() => setOpenId(null)} useUp={useUp} />
         ) : tab === 'mine' ? (
-          <MyIngredients mine={mine} add={add} remove={remove} />
+          <MyIngredients mine={mine} add={add} remove={remove} pantryOff={pantryOff} />
         ) : tab === 'find' ? (
           <Results {...results} empty={mine.length === 0} open={setOpenId} goMine={() => setTab('mine')}
             view={view} setView={setView}
-            loading={loading ? <PotLoader emojis={mine.map(id => BY_ID.get(id)!.emoji)} total={RECIPES.length} /> : null} />
+            loading={loading ? <PotLoader emojis={mine.map(id => BY_ID.get(id)!.emoji)} total={makeable.length} /> : null} />
         ) : (
           <Settings
             pantryOff={pantryOff}
-            togglePantry={id => setPantryOff(o => (o.includes(id) ? o.filter(x => x !== id) : [...o, id]))}
-            reset={() => { storage.clear(); setMine([]); setPantryOff([]) }}
+            togglePantry={id => setPantryOff(o => toggle(o, id))}
+            toolsOff={toolsOff}
+            toggleTool={id => setToolsOff(o => toggle(o, id))}
+            reset={() => { storage.clear(); setMine([]); setPantryOff([]); setToolsOff([]) }}
           />
         )}
       </main>

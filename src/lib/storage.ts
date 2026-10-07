@@ -20,6 +20,8 @@ export const storage = {
   setMyIngredients: (ids: string[]) => save('myIngredients', ids),
   pantryOff: () => load('pantryOff'),
   setPantryOff: (ids: string[]) => save('pantryOff', ids),
+  toolsOff: () => load('toolsOff'),
+  setToolsOff: (ids: string[]) => save('toolsOff', ids),
   resultView: () => {
     try { return localStorage.getItem('resultView') === 'grid' ? 'grid' : 'list' } catch { return 'list' }
   },
@@ -30,6 +32,7 @@ export const storage = {
     try {
       localStorage.removeItem('myIngredients')
       localStorage.removeItem('pantryOff')
+      localStorage.removeItem('toolsOff')
     } catch { /* noop */ }
   },
 }

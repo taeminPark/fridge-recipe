@@ -11,7 +11,7 @@ function ListRow({ m, open }: { m: Match; open: (id: string) => void }) {
   return (
     <li className="border-b border-line last:border-0">
       <button type="button" onClick={() => open(m.recipe.id)} className="flex w-full items-center gap-4 py-3.5 text-left active:bg-card">
-        <RecipePhoto src={m.recipe.image} name={m.recipe.name} className="plate size-16 shrink-0 text-[0.7rem]" />
+        <RecipePhoto src={m.recipe.image} name={m.recipe.name} className="size-[4.5rem] shrink-0 text-[0.7rem]" />
         <div className="min-w-0 flex-1">
           <p className="font-title text-[1.15rem] leading-snug">{m.recipe.name}</p>
           <p className="mt-0.5 flex gap-3 text-xs text-soft">
@@ -56,8 +56,19 @@ function Section({ id, title, items, view, open, empty }: {
   )
 }
 
+const MAX_DROPS = 6
+
+/** 냄비 폭에 고루 나눈 자리. 연달아 떨어지는 재료끼리는 멀리 떨어지도록 왼쪽 절반·오른쪽 절반을 번갈아 쓴다 */
+function dropLeft(n: number, count: number) {
+  if (count === 1) return 73
+  const half = Math.ceil(count / 2)
+  const slot = n % 2 === 0 ? n / 2 : half + (n - 1) / 2
+  return 30 + (slot * 86) / (count - 1)
+}
+
 /** 요리찾기를 열 때 약 1.5초 보여주는 뚝배기: 내 재료가 퐁당 빠지고 김이 오른다 */
 export function PotLoader({ emojis, total }: { emojis: string[]; total: number }) {
+  const drops = emojis.slice(0, MAX_DROPS)
   const [count, setCount] = useState(0)
   useEffect(() => {
     let raf = 0
@@ -73,8 +84,8 @@ export function PotLoader({ emojis, total }: { emojis: string[]; total: number }
   return (
     <div role="status" className="grid place-items-center py-14">
       <div className="relative h-40 w-44">
-        {emojis.slice(0, 3).map((e, n) => (
-          <span key={n} className="pot-drop absolute top-0 text-3xl" style={{ left: `${36 + n * 38}px`, animationDelay: `${n * 0.22}s` }}>{e}</span>
+        {drops.map((e, n) => (
+          <span key={n} className="pot-drop absolute top-0 text-3xl" style={{ left: `${dropLeft(n, drops.length)}px`, animationDelay: `${n * 0.13}s` }}>{e}</span>
         ))}
         {[0, 1, 2].map(n => (
           <span key={n} className="pot-steam absolute bottom-[5.6rem] h-7 w-1.5 rounded-full bg-ink/35"

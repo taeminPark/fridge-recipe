@@ -1,0 +1,183 @@
+<title>있잖아 아이콘 3차</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* 아이콘 시안: 앱 바탕(숯) 위에 큰 아이콘, 실제 크기, 홈 화면 미리보기를 한 줄씩. 페이지는 어두운 한 가지 모습 */
+:root {
+  color-scheme: dark;
+  --bg: #1C1918; --card: #282423; --ink: #F3EEE9; --soft: #A79E97; --acc: #F5A869; --line: rgb(243 238 233 / .12);
+  --f-title: "Jua", "Noto Sans KR", sans-serif; --f-body: "Noto Sans KR", -apple-system, system-ui, sans-serif;
+}
+* { box-sizing: border-box }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--f-body); word-break: keep-all; padding: 28px 16px 64px }
+.wrap { max-width: 1100px; margin: 0 auto; display: grid; gap: 40px }
+h1 { font: 400 32px/1.25 var(--f-title); margin: 0 }
+.lead { color: var(--soft); margin: 8px 0 0; line-height: 1.65; max-width: 62ch }
+h2 { font: 400 25px/1.3 var(--f-title); margin: 0 0 4px; color: var(--acc) }
+.note { color: var(--soft); margin: 0 0 16px; font-size: 14px }
+.list { display: grid; gap: 16px }
+.item { display: grid; grid-template-columns: auto 1fr; gap: 20px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 22px; padding: 18px }
+.item > svg { width: 168px; height: 168px; border-radius: 38px; box-shadow: 0 14px 28px -12px #000, 0 0 0 1px rgb(255 255 255 / .06) }
+.info { min-width: 0; display: grid; gap: 10px }
+.info h3 { margin: 0; font: 400 21px var(--f-title) }
+.info p { margin: 0; color: var(--soft); font-size: 14px; line-height: 1.6 }
+.sizes { display: flex; align-items: flex-end; gap: 14px; flex-wrap: wrap; color: var(--soft); font-size: 11px }
+.sizes figure { margin: 0; display: grid; justify-items: center; gap: 4px }
+.sizes svg { display: block }
+.s60 svg { width: 60px; height: 60px; border-radius: 14px }
+.s32 svg { width: 32px; height: 32px; border-radius: 7px }
+.s16 svg { width: 16px; height: 16px; border-radius: 3px }
+.light { background: #F2F2F2; padding: 6px; border-radius: 10px }
+@media (max-width: 560px) { .item { grid-template-columns: 1fr } .item > svg { width: 128px; height: 128px; border-radius: 29px } }
+
+/* 홈 화면 미리보기 */
+.home { border-radius: 28px; padding: 22px 18px; background: linear-gradient(160deg, #3A4A6B, #6B4E6E 55%, #B8846B); display: grid; grid-template-columns: repeat(auto-fill, minmax(70px, 1fr)); gap: 18px 10px }
+.app { display: grid; justify-items: center; gap: 5px; font-size: 11px; color: #fff; text-shadow: 0 1px 2px rgb(0 0 0 / .4) }
+.app svg, .app i { width: 60px; height: 60px; border-radius: 14px; display: block }
+.app i { background: rgb(255 255 255 / .22) }
+.ask { border: 1px solid var(--acc); border-radius: 18px; padding: 18px 20px; line-height: 1.75; background: var(--card) }
+.ask b { color: var(--acc) }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- 공용 그라데이션 -->
+    <linearGradient id="bgG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2A2523"/><stop offset="1" stop-color="#171413"/></linearGradient>
+    <linearGradient id="potG" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3B2A22"/><stop offset=".45" stop-color="#5A4134"/><stop offset="1" stop-color="#2E211B"/></linearGradient>
+    <linearGradient id="potA" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#E08A4E"/><stop offset=".42" stop-color="#F8B67D"/><stop offset="1" stop-color="#D47B3F"/></linearGradient>
+    <linearGradient id="rimG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6E5243"/><stop offset="1" stop-color="#3B2A22"/></linearGradient>
+    <radialGradient id="stewG" cx=".45" cy=".4" r=".7"><stop offset="0" stop-color="#FFB27A"/><stop offset=".6" stop-color="#F0864A"/><stop offset="1" stop-color="#C8572A"/></radialGradient>
+    <radialGradient id="yolkG" cx=".38" cy=".34" r=".75"><stop offset="0" stop-color="#FFD9A8"/><stop offset=".35" stop-color="#F9B061"/><stop offset="1" stop-color="#E5832F"/></radialGradient>
+    <radialGradient id="whiteG" cx=".45" cy=".4" r=".7"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".75" stop-color="#F6F0E9"/><stop offset="1" stop-color="#E4D9CD"/></radialGradient>
+    <radialGradient id="panG" cx=".5" cy=".45" r=".6"><stop offset="0" stop-color="#3A3533"/><stop offset=".85" stop-color="#252120"/><stop offset="1" stop-color="#121010"/></radialGradient>
+    <radialGradient id="glowG" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#F5A869" stop-opacity=".35"/><stop offset="1" stop-color="#F5A869" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000" flood-opacity=".45"/></filter>
+    <filter id="softS" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+</svg>
+
+<div class="wrap">
+  <header>
+    <h1>있잖아 아이콘 3차: 뚝배기와 계란 프라이</h1>
+    <p class="lead">고르신 숯 + 살구 색에 맞춰 C 뚝배기와 F 계란 프라이를 세 가지씩 다듬었어요. 큰 그림 옆에 실제 홈 화면 크기(60), 브라우저 탭 크기(32, 16), 밝은 바탕에서 보이는 모습을 함께 두었어요.</p>
+  </header>
+
+  <section>
+    <h2>C 김 나는 뚝배기</h2>
+    <p class="note">요리찾기 로딩 화면의 뚝배기와 이어지는 아이콘이에요.</p>
+    <div class="list" id="pots"></div>
+  </section>
+
+  <section>
+    <h2>F 밤하늘 계란 프라이</h2>
+    <p class="note">숯빛 밤하늘에 뜬 계란 프라이. 야식으로 냉장고 털이하는 장난스러운 느낌이에요.</p>
+    <div class="list" id="eggs"></div>
+  </section>
+
+  <section>
+    <h2>홈 화면에서</h2>
+    <p class="note">아이폰 홈 화면에 다른 앱들과 같이 놓았을 때예요.</p>
+    <div class="home" id="home"></div>
+  </section>
+
+  <div class="ask">마음에 드는 번호를 알려주세요. 예: <b>"C2"</b> 또는 <b>"F1인데 별 빼고"</b>. 고르시면 앱 아이콘, 파비콘, 헤더 마크까지 한 번에 바꿀게요.</div>
+</div>
+
+<script>
+// 모든 아이콘은 256×256. 둥근 모서리는 OS가 깎으므로 바탕은 꽉 채운다
+const BG = `<rect width="256" height="256" fill="url(#bgG)"/>`
+// 김: 아래에서 위로 부드럽게 흔들리는 선 (y1에서 시작해 h만큼)
+const steam = (xs, y1, h, w, color, op = 1) => xs.map(x =>
+  `<path d="M${x} ${y1} q-11 ${-h / 4} 0 ${-h / 2} t0 ${-h / 2}" fill="none" stroke="${color}" stroke-opacity="${op}" stroke-width="${w}" stroke-linecap="round"/>`).join('')
+
+const POTS = [
+  ['C1 반질반질 뚝배기', '정면에서 본 살구빛 뚝배기. 위에서 빛이 비친 광택과 두꺼운 테두리, 양쪽 손잡이를 넣어 입체감을 줬어요. 김은 부드러운 물결 세 줄이에요.',
+    `${BG}
+     <ellipse cx="128" cy="214" rx="86" ry="10" fill="#000" opacity=".35"/>
+     ${steam([96, 128, 160], 106, 62, 11, '#F3EEE9', .8)}
+     <g filter="url(#soft)">
+       <rect x="30" y="128" width="26" height="18" rx="9" fill="#D47B3F"/>
+       <rect x="200" y="128" width="26" height="18" rx="9" fill="#D47B3F"/>
+       <path d="M46 132h164v18c0 36-29 62-64 62h-36c-35 0-64-26-64-62z" fill="url(#potA)"/>
+       <rect x="38" y="118" width="180" height="22" rx="11" fill="#FBC495"/>
+       <rect x="38" y="129" width="180" height="11" rx="5.5" fill="#E9965A"/>
+       <path d="M70 158c4 22 18 36 36 40" fill="none" stroke="#FFE2C6" stroke-opacity=".7" stroke-width="9" stroke-linecap="round"/>
+     </g>`],
+  ['C2 보글보글 위에서', '비스듬히 위에서 내려다본 뚝배기. 안에 찌개가 보글보글 끓고 있어요. 앱의 "보글보글 찾는 중" 로딩 문구와 딱 맞아요.',
+    `${BG}
+     <circle cx="128" cy="140" r="104" fill="url(#glowG)"/>
+     ${steam([100, 156], 96, 58, 10, '#F3EEE9', .7)}
+     <g filter="url(#soft)">
+       <rect x="22" y="132" width="30" height="20" rx="10" fill="#4A3830"/>
+       <rect x="204" y="132" width="30" height="20" rx="10" fill="#4A3830"/>
+       <path d="M40 140c0 50 36 78 88 78s88-28 88-78z" fill="url(#potG)"/>
+       <ellipse cx="128" cy="140" rx="90" ry="34" fill="url(#rimG)"/>
+       <ellipse cx="128" cy="142" rx="74" ry="25" fill="url(#stewG)"/>
+       <circle cx="104" cy="138" r="9" fill="#FFC79A"/><circle cx="101" cy="135" r="3" fill="#fff" opacity=".7"/>
+       <circle cx="144" cy="146" r="7" fill="#FFC79A"/><circle cx="142" cy="144" r="2.4" fill="#fff" opacity=".7"/>
+       <circle cx="160" cy="134" r="5" fill="#FFC79A"/>
+       <circle cx="124" cy="152" r="4.5" fill="#FFC79A"/>
+       <path d="M76 176c8 16 22 26 40 30" fill="none" stroke="#8A6553" stroke-opacity=".7" stroke-width="7" stroke-linecap="round"/>
+     </g>`],
+  ['C3 한 줄 뚝배기', '굵기가 같은 선 하나로 그린 뚝배기. 장식을 덜어내서 16px 브라우저 탭에서도 가장 또렷해요. 가운데 김이 체크처럼 꺾여 "있다!"를 말해요.',
+    `${BG}
+     ${steam([92, 164], 88, 44, 12, '#F3EEE9', .75)}
+     <path d="M110 70l16 16 24-34" fill="none" stroke="#F5A869" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+     <path d="M36 112h184" stroke="#F5A869" stroke-width="18" stroke-linecap="round"/>
+     <path d="M52 132h152v10c0 34-27 58-60 58h-32c-33 0-60-24-60-58z" fill="#F5A869"/>
+     <path d="M30 142h18M208 142h18" stroke="#F5A869" stroke-width="16" stroke-linecap="round"/>
+     <path d="M80 152c3 16 14 26 28 29" fill="none" stroke="#1C1918" stroke-opacity=".25" stroke-width="8" stroke-linecap="round"/>`],
+]
+
+const eggWhite = 'M128 50c26 0 36 16 54 24s28 24 24 46c-3 20 0 38-18 52s-30 30-58 30-44-10-60-26-24-30-22-52 10-38 24-50 30-24 56-24z'
+const EGGS = [
+  ['F1 보름달 계란', '반들반들한 노른자와 살짝 노릇한 가장자리. 노른자 둘레에 은은한 살구빛 달무리를 넣고 별 세 개를 띄웠어요.',
+    `${BG}
+     <circle cx="124" cy="132" r="110" fill="url(#glowG)"/>
+     <g fill="#F3EEE9"><circle cx="206" cy="46" r="4"/><circle cx="44" cy="70" r="3"/><circle cx="58" cy="214" r="3.5"/>
+       <path d="M206 34v24M194 46h24" stroke="#F3EEE9" stroke-width="2.5" stroke-linecap="round" opacity=".7"/></g>
+     <g filter="url(#soft)">
+       <path d="${eggWhite}" fill="#F0C79A"/>
+       <path d="${eggWhite}" fill="url(#whiteG)" transform="translate(128 126) scale(.94) translate(-128 -126)"/>
+       <circle cx="122" cy="122" r="40" fill="url(#yolkG)"/>
+       <ellipse cx="108" cy="106" rx="12" ry="8" fill="#fff" opacity=".75" transform="rotate(-30 108 106)"/>
+     </g>`],
+  ['F2 프라이팬 야식', '까만 프라이팬 위의 계란 프라이. 손잡이가 오른쪽 아래로 나가서 아이콘 안에 움직임이 생겨요. 냉장고 털이 야식 느낌이 가장 분명해요.',
+    `${BG}
+     <g filter="url(#soft)">
+       <path d="M176 176l52 52" stroke="#4A3830" stroke-width="22" stroke-linecap="round"/>
+       <path d="M200 200l24 24" stroke="#6B4E3E" stroke-width="12" stroke-linecap="round"/>
+       <circle cx="116" cy="116" r="92" fill="#0E0C0B"/>
+       <circle cx="116" cy="116" r="82" fill="url(#panG)"/>
+       <path d="M116 56c20 0 26 12 40 18s22 18 18 34-1 28-14 38-22 22-44 22-34-8-46-20-18-22-16-38 8-28 18-36 24-18 44-18z" fill="url(#whiteG)"/>
+       <circle cx="112" cy="112" r="28" fill="url(#yolkG)"/>
+       <ellipse cx="102" cy="101" rx="8" ry="5.5" fill="#fff" opacity=".75" transform="rotate(-30 102 101)"/>
+       <path d="M58 82c8-16 22-26 38-30" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="6" stroke-linecap="round"/>
+     </g>`],
+  ['F3 납작 계란', '그림자와 그라데이션을 빼고 두 가지 색만 쓴 평면 계란. 노른자가 "있잖아"의 ㅇ처럼 보이게 조금 크게 키웠어요. 작은 크기에서 가장 깔끔해요.',
+    `${BG}
+     <path d="${eggWhite}" fill="#F3EEE9" transform="translate(128 128) scale(1.05) translate(-128 -126)"/>
+     <circle cx="124" cy="124" r="46" fill="#F5A869"/>
+     <circle cx="124" cy="124" r="22" fill="#F3EEE9"/>
+     <circle cx="124" cy="124" r="46" fill="none" stroke="#1C1918" stroke-opacity=".12" stroke-width="4"/>`],
+]
+
+const icon = body => `<svg viewBox="0 0 256 256" aria-hidden="true">${body}</svg>`
+const render = list => list.map(([name, desc, body]) => `
+  <div class="item">${icon(body)}
+    <div class="info"><h3>${name}</h3><p>${desc}</p>
+      <div class="sizes">
+        <figure class="s60">${icon(body)}60</figure>
+        <figure class="s32">${icon(body)}32</figure>
+        <figure class="s16">${icon(body)}16</figure>
+        <figure class="s32 light">${icon(body)}</figure>
+      </div></div></div>`).join('')
+document.getElementById('pots').innerHTML = render(POTS)
+document.getElementById('eggs').innerHTML = render(EGGS)
+
+const others = ['사진', '카메라', '메모', '날씨', '지도', '음악']
+document.getElementById('home').innerHTML =
+  [...POTS, ...EGGS].map(([name, , body]) => `<div class="app">${icon(body)}${name.split(' ')[0]}</div>`).join('') +
+  others.map(n => `<div class="app"><i></i>${n}</div>`).join('')
+</script>

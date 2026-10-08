@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import recipesData from './data/recipes.json'
 import foodsafetyRecipes from './data/recipes-foodsafety.json'
+import { formulaRecipes } from './lib/formulas'
+import { findForMain } from './lib/main'
 import { findRecipes, type Recipe } from './lib/match'
 import { AROMATIC_IDS, BY_ID, INGREDIENTS } from './lib/normalize'
 import { storage } from './lib/storage'
@@ -10,7 +12,8 @@ import { PotLoader, Results, type View } from './pages/Results'
 import { RecipeDetail } from './pages/RecipeDetail'
 import { Settings } from './pages/Settings'
 
-const RECIPES = [...recipesData, ...foodsafetyRecipes] as Recipe[]
+const BASE = [...recipesData, ...foodsafetyRecipes] as Recipe[]
+const RECIPES = [...BASE, ...formulaRecipes(BASE)]
 const LOADER_MS = 1500
 
 /** 받침 유무에 따라 을/를 */
@@ -35,6 +38,7 @@ export default function App() {
   const [view, setView] = useState<View>(storage.resultView)
   const [tab, setTab] = useState<Tab>('mine')
   const [openId, setOpenId] = useState<string | null>(null)
+  const [mainPick, setMain] = useState<string | null>(null)
   const [toast, setToast] = useState<{ id: string } | null>(null)
   const toastTimer = useRef<number>(undefined)
 
@@ -63,6 +67,9 @@ export default function App() {
   // 없는 도구(오븐 등)가 꼭 필요한 레시피는 뺀다
   const makeable = useMemo(() => { const off = new Set(toolsOff); return RECIPES.filter(r => canMake(r, off)) }, [toolsOff])
   const results = useMemo(() => findRecipes(makeable, myIds, pantryIds, AROMATIC_IDS), [makeable, myIds, pantryIds])
+  // 고른 주재료를 내 재료에서 빼면 전체 보기로 돌아간다
+  const main = mainPick && myIds.has(mainPick) ? mainPick : null
+  const mainResults = useMemo(() => main ? findForMain(makeable, main, myIds, pantryIds) : null, [main, makeable, myIds, pantryIds])
 
   const add = (id: string) => setMine(m => (m.includes(id) ? m : [...m, id]))
   const remove = (id: string) => setMine(m => m.filter(x => x !== id))
@@ -83,7 +90,9 @@ export default function App() {
         ) : tab === 'mine' ? (
           <MyIngredients mine={mine} add={add} remove={remove} pantryOff={pantryOff} />
         ) : tab === 'find' ? (
-          <Results {...results} empty={mine.length === 0} open={setOpenId} goMine={() => setTab('mine')}
+          <Results {...(mainResults ? { now: mainResults.now, oneMore: mainResults.more } : results)}
+            mine={mine} main={main} setMain={setMain}
+            empty={mine.length === 0} open={setOpenId} goMine={() => setTab('mine')}
             view={view} setView={setView}
             loading={loading ? <PotLoader emojis={mine.map(id => BY_ID.get(id)!.emoji)} total={makeable.length} /> : null} />
         ) : (

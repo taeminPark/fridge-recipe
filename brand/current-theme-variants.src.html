@@ -1,0 +1,237 @@
+<title>있잖아 저녁 상차림 변주</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Gowun+Batang:wght@700&family=Jua&family=Do+Hyeon&family=Hahmlet:wght@600&family=IBM+Plex+Sans+KR:wght@600&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* 시안 페이지: 지금 테마의 화면 구조(접시 사진, 아래 글자 탭)는 그대로 두고 색·글꼴·아이콘만 바꿔 본다. 페이지 자체도 어두운 한 가지 모습 */
+:root {
+  color-scheme: dark;
+  --desk: #141016; --panel: #1E1822; --ink: #F1ECF2; --soft: #A398A8; --line: rgb(241 236 242 / .1); --hl: #E9B49A;
+  --f-body: "Noto Sans KR", -apple-system, system-ui, sans-serif; --f-head: "Gowun Dodum", "Noto Sans KR", sans-serif;
+}
+* { box-sizing: border-box }
+body { background: var(--desk); color: var(--ink); font-family: var(--f-body); word-break: keep-all; padding: 28px 16px 64px; margin: 0 }
+.wrap { max-width: 1180px; margin: 0 auto; display: grid; gap: 48px }
+h1 { font: 400 30px/1.3 var(--f-head); margin: 0; text-wrap: balance }
+.lead { color: var(--soft); margin: 8px 0 0; line-height: 1.65; max-width: 62ch }
+h2 { font: 400 23px/1.3 var(--f-head); margin: 0 0 4px }
+.note { color: var(--soft); margin: 0 0 18px; font-size: 14px; line-height: 1.6 }
+.combo { display: grid; gap: 12px; padding-top: 18px; border-top: 1px solid var(--line) }
+.combo-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px }
+.combo-head b { font: 400 21px var(--f-head) }
+.combo-head span { color: var(--soft); font-size: 14px }
+.sw { display: flex; gap: 6px; margin-left: auto }
+.sw i { width: 22px; height: 22px; border-radius: 50%; border: 1px solid rgb(255 255 255 / .15) }
+.phones { display: flex; gap: 18px; overflow-x: auto; padding: 4px 2px 14px }
+
+/* ---------- 휴대폰: 앱의 실제 화면 구조를 줄여서 ---------- */
+.ph { flex: 0 0 268px; height: 540px; overflow: hidden; border-radius: 30px; background: var(--bg); color: var(--p-ink);
+  border: 6px solid #000; display: flex; flex-direction: column; font-size: 12.5px; font-family: var(--f-body) }
+.scr { flex: 1; overflow: hidden; padding: 26px 14px 0 }
+.brand { display: flex; align-items: center; gap: 5px; font: 400 12px var(--f-title); color: var(--acc) }
+.brand svg { width: 19px; height: 19px }
+.hi { margin: 12px 0 0; color: var(--p-soft); font-size: 11px }
+.ttl { font: var(--w-title) 30px/1.2 var(--f-title); margin: 1px 0 12px }
+.lbl { font-size: 10.5px; color: var(--p-soft); margin: 0 0 5px }
+.chips { display: flex; gap: 5px; overflow: hidden; margin-bottom: 12px }
+.chip { flex: none; border: 1px solid var(--p-line); border-radius: 999px; padding: 4px 9px; font-size: 11px; white-space: nowrap }
+.chip.on { background: var(--acc); border-color: var(--acc); color: var(--bg); font-weight: 700 }
+.sum { display: flex; align-items: center; justify-content: space-between; font-size: 10.5px; color: var(--p-soft); margin-bottom: 12px }
+.seg { display: flex; border: 1px solid var(--p-line); border-radius: 999px; padding: 2px; font-weight: 700; font-size: 10px }
+.seg i { font-style: normal; padding: 2px 8px; border-radius: 999px }
+.seg i.on { background: var(--p-ink); color: var(--bg) }
+.st { display: flex; align-items: center; gap: 6px; border-bottom: 1px solid var(--p-line); padding-bottom: 7px; font: var(--w-title) 17px/1 var(--f-title) }
+.st em { font: 700 10px var(--f-body); font-style: normal; color: var(--acc); border: 1px solid var(--acc); border-radius: 999px; min-width: 18px; height: 18px; display: grid; place-items: center; padding: 0 4px }
+.row { display: flex; align-items: center; gap: 11px; padding: 9px 0; border-bottom: 1px solid var(--p-line) }
+.plate { width: 54px; height: 54px; flex: none; border-radius: 50%; padding: 2px; border: 1px solid color-mix(in srgb, var(--acc) 35%, transparent); background: var(--card) }
+.plate > * { width: 100%; height: 100%; border-radius: 50%; overflow: hidden; display: grid; place-items: center; text-align: center;
+  font: var(--w-title) 9.5px/1.15 var(--f-title); color: var(--acc); padding: 6px }
+.plate img { object-fit: cover; padding: 0 }
+.row .nm { font: var(--w-title) 15px/1.25 var(--f-title) }
+.row .mt { font-size: 10px; color: var(--p-soft); margin-top: 2px }
+.row .need { font-size: 11px; color: var(--acc); margin-top: 1px }
+.tab { display: flex; border-top: 1px solid var(--p-line); padding: 9px 0 12px }
+.tab span { flex: 1; display: grid; justify-items: center; gap: 4px; font: var(--w-title) 14px var(--f-title); color: color-mix(in srgb, var(--p-soft) 70%, transparent) }
+.tab span::after { content: ""; width: 18px; height: 3px; border-radius: 3px; background: transparent }
+.tab span.on { color: var(--acc) }
+.tab span.on::after { background: var(--acc) }
+/* 내 재료 화면 */
+.search { border: 1px solid var(--p-line); background: var(--card); border-radius: 14px; padding: 9px 12px; color: var(--p-soft); font-size: 12px }
+.cats { display: flex; flex-wrap: wrap; gap: 5px; margin: 9px 0 18px }
+.dishes { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px 6px; margin-top: 12px }
+.dish { display: grid; justify-items: center; gap: 4px; font-size: 11px }
+.dish i { font-style: normal; width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; font-size: 21px;
+  background: radial-gradient(circle, var(--dish-a) 58%, var(--dish-b) 60%, var(--dish-b) 66%, var(--dish-a) 68%); box-shadow: 0 3px 8px rgb(0 0 0 / .4) }
+/* 상세 */
+.hero { margin: -26px -14px 0; position: relative; aspect-ratio: 4 / 3; overflow: hidden }
+.hero img { width: 100%; height: 100%; object-fit: cover; display: block; transform: scale(1.1) }
+.hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, var(--bg)) }
+.dt { position: relative; margin-top: -30px; font: var(--w-title) 26px/1.2 var(--f-title) }
+.src { font-size: 10px; color: var(--acc); position: relative; margin-top: -48px; margin-bottom: 30px }
+.facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin: 12px 0 14px }
+.facts div { border: 1px solid var(--p-line); border-radius: 14px; display: grid; justify-items: center; padding: 6px 0; font-size: 10px; color: var(--p-soft) }
+.facts b { font: var(--w-title) 20px var(--f-title); color: var(--acc) }
+.facts b.al { color: var(--alert) }
+.ing { display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--p-line); padding: 8px 0 }
+.ing .d { width: 17px; height: 17px; border-radius: 50%; display: grid; place-items: center; font-size: 9px; font-weight: 700; flex: none }
+.ing .d.h { background: var(--acc); color: var(--bg) }
+.ing .d.b { border: 1px solid var(--p-soft); color: var(--p-soft) }
+.ing .d.m { border: 1px solid var(--alert); color: var(--alert) }
+.ing .m { color: var(--alert) }
+.ing small { color: var(--p-soft); font-size: 10px }
+
+/* ---------- 색 조합 ---------- */
+.c0 { --bg: #22182A; --card: #2E2238; --dish-a: #33263D; --dish-b: #45354F; --p-ink: #F3ECF4; --p-soft: #AD9DB5; --acc: #E9B49A; --alert: #FF8F8F }
+.c1 { --bg: #22182A; --card: #2E2238; --dish-a: #33263D; --dish-b: #45354F; --p-ink: #F5EFE6; --p-soft: #B1A3AE; --acc: #E8C98A; --alert: #FF8F8F }
+.c2 { --bg: #1F1830; --card: #2A2140; --dish-a: #2F2546; --dish-b: #41355C; --p-ink: #F1EEF8; --p-soft: #A9A0BF; --acc: #CDB8F6; --alert: #FF9A9A }
+.c3 { --bg: #2A1519; --card: #391F25; --dish-a: #3F242A; --dish-b: #55333A; --p-ink: #F7EDEC; --p-soft: #BFA2A5; --acc: #F2AA8E; --alert: #FFB4A2 }
+.c4 { --bg: #1C1918; --card: #282423; --dish-a: #2D2927; --dish-b: #3E3835; --p-ink: #F3EEE9; --p-soft: #A79E97; --acc: #F5A869; --alert: #FF8F7F }
+.c5 { --bg: #161F1B; --card: #202B26; --dish-a: #24302A; --dish-b: #33433A; --p-ink: #EDF2EE; --p-soft: #99ACA1; --acc: #E3CB8F; --alert: #FF9C8C }
+.c0, .c1, .c2, .c3, .c4, .c5 { --p-line: color-mix(in srgb, var(--p-ink) 12%, transparent) }
+/* ---------- 제목 글꼴 ---------- */
+.f0 { --f-title: "Gowun Dodum", "Noto Sans KR", sans-serif; --w-title: 400 }
+.f1 { --f-title: "Gowun Batang", "Noto Serif KR", serif; --w-title: 700 }
+.f2 { --f-title: "Jua", "Noto Sans KR", sans-serif; --w-title: 400 }
+.f3 { --f-title: "Do Hyeon", "Noto Sans KR", sans-serif; --w-title: 400 }
+.f4 { --f-title: "Hahmlet", "Noto Serif KR", serif; --w-title: 600 }
+.f5 { --f-title: "IBM Plex Sans KR", "Noto Sans KR", sans-serif; --w-title: 600 }
+
+/* 글꼴 비교 카드 */
+.fonts { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px }
+.fcard { background: var(--bg); color: var(--p-ink); border-radius: 20px; padding: 18px; display: grid; gap: 10px; border: 1px solid var(--p-line) }
+.fcard .tag { font: 500 12px var(--f-body); color: var(--p-soft) }
+.fcard .big { font: var(--w-title) 34px/1.15 var(--f-title) }
+.fcard .names { display: grid; gap: 4px; font: var(--w-title) 17px/1.3 var(--f-title) }
+.fcard .names span:nth-child(2) { color: var(--acc) }
+.fcard p { margin: 0; font-size: 12.5px; color: var(--p-soft); line-height: 1.55 }
+
+/* ---------- 아이콘 ---------- */
+.icons { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px }
+.icard { background: var(--panel); border: 1px solid var(--line); border-radius: 20px; padding: 18px; display: grid; gap: 12px }
+.icard h3 { margin: 0; font: 400 18px var(--f-head) }
+.icard p { margin: 0; color: var(--soft); font-size: 13.5px; line-height: 1.55 }
+.ibig { display: flex; align-items: flex-end; gap: 12px }
+.ibig svg { width: 100px; height: 100px; border-radius: 23px; box-shadow: 0 8px 20px -8px #000 }
+.ismall { display: flex; gap: 8px; align-items: center }
+.ismall svg { width: 42px; height: 42px; border-radius: 10px }
+.ismall small { color: var(--soft); font-size: 12px }
+.tiny { display: flex; gap: 6px; align-items: center; color: var(--soft); font-size: 11px }
+.tiny svg { width: 20px; height: 20px; border-radius: 5px }
+
+.ask { background: var(--panel); border: 1px solid var(--hl); border-radius: 18px; padding: 18px 20px; line-height: 1.75 }
+.ask b { color: var(--hl) }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>있잖아 저녁 상차림 변주</h1>
+    <p class="lead">어두운 바탕, 금테 접시 사진, 아래 글자 탭은 지금 그대로 두고 색, 제목 글꼴, 아이콘만 바꿔 봤어요. 본문은 모두 지금처럼 Noto Sans KR이에요. 화면은 옆으로 밀면 더 있어요.</p>
+  </header>
+
+  <section>
+    <h2>1. 색 조합</h2>
+    <p class="note">제목 글꼴은 지금 쓰는 고운돋움으로 고정했어요. 각 조합마다 요리찾기, 내 재료, 레시피 상세 화면이에요.</p>
+    <div id="colors" style="display:grid;gap:30px"></div>
+  </section>
+
+  <section>
+    <h2>2. 제목 글꼴</h2>
+    <p class="note">색은 지금 색(가지 + 로즈골드)으로 고정했어요. 제목, 요리 이름, 탭 글자에 들어가는 글꼴이에요. 1번 색 조합과 섞어서 골라도 돼요.</p>
+    <div class="fonts c0" id="fonts"></div>
+  </section>
+
+  <section>
+    <h2>3. 아이콘</h2>
+    <p class="note">큰 그림은 지금 색이고, 작은 것은 2 샴페인 골드, 4 와인, 5 숯·살구 색이에요. 맨 아래 작은 크기는 홈 화면과 브라우저 탭에서 보이는 크기예요.</p>
+    <div class="icons" id="icons"></div>
+  </section>
+
+  <div class="ask">마음에 드는 걸 <b>색 번호 + 글꼴 번호 + 아이콘 번호</b>로 알려주세요. 예: <b>"색 2, 글꼴 3, 아이콘 B"</b>. 지금 그대로 두고 싶은 건 "색 1"처럼 1번을 고르시면 돼요.</div>
+</div>
+
+<script>
+const IMG = __IMGS__
+const COLORS = [
+  ['c0', '1 지금: 가지 + 로즈골드', '지금 앱 그대로. 비교 기준', ['#22182A', '#2E2238', '#E9B49A', '#F3ECF4']],
+  ['c1', '2 가지 + 샴페인 골드', '바탕은 그대로, 금색을 노란빛으로. 놋그릇 같은 상차림', ['#22182A', '#2E2238', '#E8C98A', '#F5EFE6']],
+  ['c2', '3 밤 보라 + 라벤더', '보라 한 가지 색으로 통일. 가장 부드럽고 조용함', ['#1F1830', '#2A2140', '#CDB8F6', '#F1EEF8']],
+  ['c3', '4 와인 + 연어빛', '붉은 와인빛 바탕에 연어색. 따뜻하고 식욕 도는 색', ['#2A1519', '#391F25', '#F2AA8E', '#F7EDEC']],
+  ['c4', '5 숯 + 살구', '무채색 숯 바탕에 살구 주황. 사진이 가장 돋보이는 조합', ['#1C1918', '#282423', '#F5A869', '#F3EEE9']],
+  ['c5', '6 먹녹색 + 놋쇠', '짙은 녹색 바탕에 놋쇠빛. 채소와 잘 어울림', ['#161F1B', '#202B26', '#E3CB8F', '#EDF2EE']],
+]
+const FONTS = [
+  ['f0', '1 고운돋움 (지금)', '둥글고 손글씨 같은 고딕. 지금 그대로'],
+  ['f1', '2 고운바탕', '같은 집안의 명조. 상차림, 식당 메뉴판 같은 격식'],
+  ['f2', '3 주아', '통통하고 귀여운 손글씨. 가장 친근하고 익살스러움'],
+  ['f3', '4 도현', '굵고 좁은 간판 글씨. 반찬가게, 분식집 느낌'],
+  ['f4', '5 함렛', '단단한 현대 명조. 요리 잡지 같은 정돈감'],
+  ['f5', '6 IBM Plex Sans KR', '반듯한 고딕. 군더더기 없는 앱 느낌'],
+]
+const MARK = 'M28.8 83.4 L211.0 57.8 L203.3 67.2 L213.3 74.2 L205.6 83.6 L215.6 90.6 L207.9 100.0 L218.0 107.0 L210.2 116.4 L220.3 123.4 L212.5 132.9 L222.6 139.8 L214.8 149.3 L224.9 156.2 L217.1 165.7 L227.2 172.6 L45.0 198.2 L52.7 188.8 L42.7 181.8 L50.4 172.4 L40.4 165.4 L48.1 156.0 L38.0 149.0 L45.8 139.6 L35.7 132.6 L43.5 123.1 L33.4 116.2 L41.2 106.7 L31.1 99.8 L38.9 90.3 Z M82.9 140.9 L121.8 170.2 L173.3 101.9 L154.1 87.5 L117.1 136.6 L97.3 121.7 Z'
+const mark = `<svg viewBox="0 0 256 256" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="${MARK}"/></svg>`
+
+const tabs = on => `<div class="tab">${['내 재료', '요리찾기', '설정'].map(t => `<span class="${t === on ? 'on' : ''}">${t}</span>`).join('')}</div>`
+const head = (hi, t) => `<div class="brand">${mark}있잖아</div><p class="hi">${hi}</p><div class="ttl">${t}</div>`
+const plate = r => `<div class="plate">${r.img ? `<img src="${IMG[r.img]}" alt="">` : `<div>${r.n}</div>`}</div>`
+
+const find = () => `<div class="ph"><div class="scr">${head('오늘의 한 상', '요리찾기')}
+  <p class="lbl">오늘의 주인공</p>
+  <div class="chips"><span class="chip">전체</span><span class="chip on">🥓 베이컨</span><span class="chip">🥚 계란</span><span class="chip">🥬 김치</span></div>
+  <div class="sum"><span>베이컨 · 지금 4 · 더 있으면 1</span><span class="seg"><i class="on">목록</i><i>사진</i></span></div>
+  <div class="st">지금 만들 수 있어요 <em>4</em></div>
+  ${[{ n: '베이컨 김치찌개', m: '30분 · 내 재료 2개' }, { n: '베이컨 계란말이', m: '15분 · 내 재료 2개' }, { n: '베이컨 가지 말이', img: 2, m: '내 재료 1개', need: '가지, 파프리카만 있으면 돼요' }]
+    .map(r => `<div class="row">${plate(r)}<div><div class="nm">${r.n}</div><div class="mt">${r.m}</div>${r.need ? `<div class="need">${r.need}</div>` : ''}</div></div>`).join('')}
+  </div>${tabs('요리찾기')}</div>`
+
+const mine = () => `<div class="ph"><div class="scr">${head('오늘 냉장고 사정', '내 재료')}
+  <div class="search">재료 이름 (예: 계란, 대파)</div>
+  <div class="cats">${['🥬 채소', '🥩 육류', '🐟 해산물', '🥚 유제품·달걀'].map(c => `<span class="chip">${c}</span>`).join('')}</div>
+  <div class="st">냉장고 안 <em>6</em></div>
+  <div class="dishes">${[['🥓', '베이컨'], ['🥚', '달걀'], ['🥬', '김치'], ['🐟', '고등어'], ['🫘', '두부'], ['🧅', '양파']].map(([e, n]) => `<div class="dish"><i>${e}</i>${n}</div>`).join('')}</div>
+  </div>${tabs('내 재료')}</div>`
+
+const detail = () => `<div class="ph"><div class="scr"><div class="hero"><img src="${IMG[1]}" alt=""></div>
+  <p class="src">식품안전나라 레시피</p><div class="dt">고등어구이</div>
+  <div class="facts"><div><b>1</b>내 재료</div><div><b class="al">3</b>부족</div><div><b>2</b>기본 양념</div></div>
+  <div class="st">재료</div>
+  ${[['h', '✓', '🐟 고등어', '1마리', ''], ['b', '✓', '🧂 소금', '약간', '기본 양념'], ['m', '!', '🌾 밀가루', '2큰술', '없어요'], ['m', '!', '🍯 꿀', '1큰술', '없어요']]
+    .map(([c, d, n, a, s]) => `<div class="ing"><span class="d ${c}">${d}</span><span class="${c === 'm' ? 'm' : ''}">${n}</span><b>${a}</b><small>${s}</small></div>`).join('')}
+  </div>${tabs('요리찾기')}</div>`
+
+document.getElementById('colors').innerHTML = COLORS.map(([k, name, desc, sw]) => `
+  <div class="combo"><div class="combo-head"><b>${name}</b><span>${desc}</span><div class="sw">${sw.map(c => `<i style="background:${c}"></i>`).join('')}</div></div>
+  <div class="phones ${k} f0">${find()}${mine()}${detail()}</div></div>`).join('')
+
+document.getElementById('fonts').innerHTML = FONTS.map(([k, name, desc]) => `
+  <div class="fcard ${k}"><span class="tag">${name}</span><div class="big">요리찾기</div>
+  <div class="names"><span>베이컨 김치찌개</span><span>지금 만들 수 있어요</span><span>간단 고등어구이</span></div><p>${desc}</p></div>`).join('')
+
+// 아이콘: (바탕, 그림, 보조, 접시) 색을 받아 그린다
+const IC = {
+  c0: ['#22182A', '#E9B49A', '#F3ECF4', '#33263D', '#45354F'],
+  c1: ['#22182A', '#E8C98A', '#F5EFE6', '#33263D', '#45354F'],
+  c3: ['#2A1519', '#F2AA8E', '#F7EDEC', '#3F242A', '#55333A'],
+  c4: ['#1C1918', '#F5A869', '#F3EEE9', '#2D2927', '#3E3835'],
+}
+const ICONS = [
+  ['A 테이프 체크 (지금 다듬기)', '지금 마크를 그대로 두고, 테이프를 덜 기울이고 체크를 조금 키웠어요. 이미 익숙해진 모양을 지키는 안이에요.',
+    ([bg, fg]) => `<rect width="120" height="120" fill="${bg}"/><g transform="translate(60 60) rotate(5) scale(.4) translate(-128 -128)"><path fill="${fg}" fill-rule="evenodd" d="${MARK}"/></g>`],
+  ['B 접시 위의 있', '위에서 본 반찬 접시(내 재료 화면의 그 접시)에 첫 글자 "있"을 담았어요. 글자 쪽을 좋아하셨던 걸 살린 안이에요.',
+    ([bg, fg, sub, a, b]) => `<rect width="120" height="120" fill="${bg}"/><circle cx="60" cy="60" r="44" fill="${b}"/><circle cx="60" cy="60" r="38" fill="${a}"/><circle cx="60" cy="60" r="44" fill="none" stroke="${fg}" stroke-opacity=".5" stroke-width="1.5"/><text x="60" y="76" text-anchor="middle" font-family="Gowun Dodum" font-size="46" fill="${fg}">있</text>`],
+  ['C 김 나는 뚝배기', '요리찾기 로딩 화면의 뚝배기를 아이콘으로. 김 세 줄 가운데가 체크처럼 꺾여 있어요.',
+    ([bg, fg, sub]) => `<rect width="120" height="120" fill="${bg}"/><path d="M44 24c-5 6 4 9 0 15M76 24c-5 6 4 9 0 15" fill="none" stroke="${sub}" stroke-opacity=".7" stroke-width="5" stroke-linecap="round"/><path d="M53 30l6 7 10-14" fill="none" stroke="${fg}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><rect x="20" y="50" width="80" height="10" rx="5" fill="${fg}"/><path d="M26 63h68v8a24 24 0 0 1-24 24H50a24 24 0 0 1-24-24z" fill="${fg}"/>`],
+  ['D 살짝 열린 냉장고', '어두운 밤에 냉장고 문을 살짝 열면 새어 나오는 불빛. "뭐 있잖아?" 하고 열어 보는 순간이에요.',
+    ([bg, fg, sub]) => `<rect width="120" height="120" fill="${bg}"/><path d="M58 22 98 30v60l-40 8z" fill="${fg}" opacity=".22"/><rect x="28" y="20" width="34" height="80" rx="6" fill="${sub}" opacity=".95"/><rect x="28" y="48" width="34" height="3" fill="${bg}"/><rect x="54" y="28" width="3.5" height="12" rx="1.75" fill="${bg}"/><rect x="54" y="57" width="3.5" height="16" rx="1.75" fill="${bg}"/><path d="M62 20 94 26v68l-32 6z" fill="${fg}"/><circle cx="76" cy="62" r="7" fill="${bg}" opacity=".18"/>`],
+  ['E 젓가락 체크', '젓가락 두 짝이 체크 표시를 만들어요. "있는 재료로 된다"는 확인을 한식 도구로.',
+    ([bg, fg, sub]) => `<rect width="120" height="120" fill="${bg}"/><path d="M50 88 L25 60 L30 56 L53 84Z" fill="${fg}"/><path d="M48 87 L97 22 L102 26 L54 91Z" fill="${fg}"/><path d="M27.5 58 l2.5-2.2 5.2 5.9-2.5 2.2z M95.5 24 l3.5 2.6 3.8-5-3.5-2.6z" fill="${sub}"/>`],
+  ['F 밤하늘 계란 프라이', '어두운 바탕에 계란 프라이가 보름달처럼 떠 있어요. 야식 냉장고 털이 같은 장난스러운 안이에요.',
+    ([bg, fg, sub]) => `<rect width="120" height="120" fill="${bg}"/><circle cx="92" cy="26" r="2" fill="${sub}" opacity=".7"/><circle cx="24" cy="36" r="1.6" fill="${sub}" opacity=".6"/><circle cx="30" cy="96" r="1.8" fill="${sub}" opacity=".5"/><path d="M60 26c13 0 18 8 27 12s13 13 9 25-4 20-15 26-24 5-34 0-17-13-17-27 5-20 12-26 11-10 18-10z" fill="${sub}"/><circle cx="58" cy="62" r="15" fill="${fg}"/><circle cx="53" cy="57" r="4" fill="#fff" opacity=".5"/>`],
+]
+const isvg = (fn, k) => `<svg viewBox="0 0 120 120" aria-hidden="true">${fn(IC[k])}</svg>`
+document.getElementById('icons').innerHTML = ICONS.map(([name, desc, fn]) => `
+  <div class="icard"><h3>${name}</h3>
+  <div class="ibig">${isvg(fn, 'c0')}</div>
+  <div class="ismall">${['c1', 'c3', 'c4'].map(k => isvg(fn, k)).join('')}<small>2 · 4 · 5 색</small></div>
+  <div class="tiny">${isvg(fn, 'c0')}브라우저 탭 크기</div>
+  <p>${desc}</p></div>`).join('')
+</script>

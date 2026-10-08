@@ -1,19 +1,19 @@
 @import "tailwindcss";
 
-/* 저녁 상차림: 어두운 가지색 바탕에 분홍빛 금, 제목은 고운돋움 */
+/* 저녁 상차림: 숯빛 바탕에 살구색 포인트, 제목은 주아 (rose는 포인트 색 이름으로 그대로 쓴다) */
 @theme {
-  --color-bg: #22182A;
-  --color-card: #2E2238;
-  --color-ink: #F3ECF4;
-  --color-soft: #AD9DB5;
-  --color-rose: #E9B49A;
-  --color-alert: #FF8F8F;
-  --color-line: rgb(243 236 244 / 0.12);
-  --color-dish-a: #33263D;
-  --color-dish-b: #45354F;
+  --color-bg: #1C1918;
+  --color-card: #282423;
+  --color-ink: #F3EEE9;
+  --color-soft: #A79E97;
+  --color-rose: #F5A869;
+  --color-alert: #FF8F7F;
+  --color-line: rgb(243 238 233 / 0.12);
+  --color-dish-a: #2D2927;
+  --color-dish-b: #3E3835;
   --color-pot: #3B2A22;
   --color-pot-edge: #5A4336;
-  --font-title: "Gowun Dodum", "Noto Sans KR", system-ui, sans-serif;
+  --font-title: "Jua", "Noto Sans KR", system-ui, sans-serif;
   --font-sans: "Noto Sans KR", -apple-system, system-ui, sans-serif;
 }
 

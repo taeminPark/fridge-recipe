@@ -1,17 +1,13 @@
 import type { ReactNode } from 'react'
 
-/** 로고: 테이프에 체크를 오려낸 마크 (brand/mark.svg와 같은 도형) */
+/** 로고: 재료가 담긴 뚝배기에 계란이 퐁당 (앱 아이콘과 같은 그림, brand/icon5/make.mjs) */
 export function Mark({ className = '' }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 256 256" className={className} aria-hidden>
-      <path fill="currentColor" fillRule="evenodd" d={MARK_PATH} />
-    </svg>
-  )
+  return <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" className={`rounded-md ${className}`} />
 }
 
 export function Header({ hi, title, brand = true }: { hi?: ReactNode; title: ReactNode; brand?: boolean }) {
   return (
-    <header className="pt-[calc(env(safe-area-inset-top)+1.25rem)] pb-5">
+    <header className="pt-[calc(env(safe-area-inset-top)+1.25rem)] pb-2.5">
       {brand && (
         <p className="flex items-center gap-1.5 font-title text-sm text-rose">
           <Mark className="size-6" />있잖아
@@ -53,4 +49,3 @@ export function RecipePhoto({ src, name, className = '' }: { src?: string; name:
   )
 }
 
-const MARK_PATH = 'M28.8 83.4 L211.0 57.8 L203.3 67.2 L213.3 74.2 L205.6 83.6 L215.6 90.6 L207.9 100.0 L218.0 107.0 L210.2 116.4 L220.3 123.4 L212.5 132.9 L222.6 139.8 L214.8 149.3 L224.9 156.2 L217.1 165.7 L227.2 172.6 L45.0 198.2 L52.7 188.8 L42.7 181.8 L50.4 172.4 L40.4 165.4 L48.1 156.0 L38.0 149.0 L45.8 139.6 L35.7 132.6 L43.5 123.1 L33.4 116.2 L41.2 106.7 L31.1 99.8 L38.9 90.3 Z M82.9 140.9 L121.8 170.2 L173.3 101.9 L154.1 87.5 L117.1 136.6 L97.3 121.7 Z'

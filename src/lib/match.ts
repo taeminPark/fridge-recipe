@@ -7,6 +7,7 @@ export type Recipe = {
   steps: string[]
   image?: string
   source: string
+  main?: string[] // 공식 레시피의 주재료 (요리 이름에서 찾는 주인공에 더한다)
 }
 export type Match = { recipe: Recipe; tier: 'now' | 'oneMore'; used: number; missing: RecipeIngredient[] }
 
